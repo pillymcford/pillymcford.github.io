@@ -1624,8 +1624,8 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   html.has-navbar-fixed-bottom-desktop, body.has-navbar-fixed-bottom-desktop { padding-bottom: 3.25rem; }
   html.has-spaced-navbar-fixed-top, body.has-spaced-navbar-fixed-top { padding-top: 5.25rem; }
   html.has-spaced-navbar-fixed-bottom, body.has-spaced-navbar-fixed-bottom { padding-bottom: 5.25rem; }
-  a.navbar-item.is-active, .navbar-link.is-active { color: #0a0a0a; }
-  a.navbar-item.is-active:not(:focus):not(:hover), .navbar-link.is-active:not(:focus):not(:hover) { background-color: transparent; }
+  a.navbar-item.is-active, .navbar-link.is-active { color: #28903a; }
+  a.navbar-item.is-active:not(:focus):not(:hover), .navbar-link.is-active:not(:focus):not(:hover) { background-color: #ededed; }
   .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link { background-color: #fafafa; } }
 .hero.is-fullheight-with-navbar { min-height: calc(100vh - 3.25rem); }
 

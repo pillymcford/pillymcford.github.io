@@ -1,6 +1,6 @@
 <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="/" style="padding-right:132px;">
+    <a class="navbar-item" href="/">
     {% include logo.html %}
     </a>
 
@@ -12,21 +12,21 @@
   </div>
 
   <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a href="/roofing-services/" class="navbar-item">
-      Roofing Services
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a href="/services/" class="navbar-item{% if page.url == '/services/' %} is-active{% endif %}">
+        <strong>Services</strong>
       </a>
 
-      <a href="/our-work/" class="navbar-item">
-      Our Work
+      <a href="/our-difference/" class="navbar-item{% if page.url == '/our-difference/' %} is-active{% endif %}">
+        <strong>Our Difference</strong>
       </a>
 
-      <a href="/faq/" class="navbar-item">
-      FAQs
+      <a href="/about-us/" class="navbar-item{% if page.url == '/about-us/' %} is-active{% endif %}">
+        <strong>About Us</strong>
       </a>
 
-      <a href="/our-difference/" class="navbar-item">
-      Our Difference
+      <a href="/contact-us/" class="navbar-item{% if page.url == '/contact-us/' %} is-active{% endif %}">
+        <strong>Contact Us</strong>
       </a>
 
     </div>
@@ -34,7 +34,7 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a href="/request-a-quote/" class="button is-success">
+          <a href="/contact-us/" class="button is-success">
             <strong>Request a Quote</strong>
           </a>
         </div>
