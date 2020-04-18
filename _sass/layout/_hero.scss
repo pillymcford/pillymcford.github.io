@@ -233,3 +233,18 @@ $hero-body-padding-large: 18rem 1.5rem !default;
   flex-shrink: 0;
   padding: $hero-body-padding;
 }
+
+.dimmed {
+  position: relative;
+  &:before {
+    content: " ";
+    z-index: 10;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.35);
+  }
+}

@@ -93,6 +93,16 @@ table th { color: #363636; }
 
 .is-pulled-right { float: right !important; }
 
+.relative { position: relative; }
+
+.has-z-index-1 { z-index: 1; }
+
+.has-z-index-2 { z-index: 2; }
+
+.has-z-index-3 { z-index: 3; }
+
+.has-z-index-10 { z-index: 10; }
+
 .is-clipped { overflow: hidden !important; }
 
 .is-size-1 { font-size: 3rem !important; }
@@ -2394,6 +2404,9 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .hero-head, .hero-foot { flex-grow: 0; flex-shrink: 0; }
 
 .hero-body { flex-grow: 1; flex-shrink: 0; padding: 3rem 1.5rem; }
+
+.dimmed { position: relative; }
+.dimmed:before { content: " "; z-index: 10; display: block; position: absolute; height: 100%; top: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.35); }
 
 .section { padding: 3rem 1.5rem; }
 @media screen and (min-width: 1024px) { .section.is-medium { padding: 9rem 1.5rem; }
