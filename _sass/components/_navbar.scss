@@ -510,6 +510,10 @@ a.navbar-item,
   .navbar-start {
     justify-content: flex-start;
     margin-right: auto;
+    &.is-centered {
+      flex-grow: 1;
+      justify-content: center;
+    }
   }
 
   .navbar-end {
