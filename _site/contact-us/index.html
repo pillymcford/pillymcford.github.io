@@ -68,13 +68,11 @@
     </div>
 
     <div class="navbar-end">
-      <!-- <div class="navbar-item">
+      <div class="navbar-item">
         <div class="buttons">
-          <a href="/contact-us/" class="button is-success">
-            <strong>Request a Quote</strong>
-          </a>
+          <button class="button is-success" id="show-quote-modal"><strong>Request a Quote</strong></button>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </nav>
@@ -195,6 +193,39 @@
   </div>
 </footer>
 
+  <div class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Request a Quote</p>
+      <button class="delete" id="close-request-modal" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      <!-- Content ... -->
+    </section>
+  </div>
+</div>
+<script>
+document.querySelector('#show-quote-modal').addEventListener('click', function(event) {
+  event.preventDefault();
+  var modal = document.querySelector('.modal');  // assuming you have only 1
+  var html = document.querySelector('html');
+  modal.classList.add('is-active');
+  html.classList.add('is-clipped');
+
+  modal.querySelector('.modal-background').addEventListener('click', function(e) {
+    e.preventDefault();
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
+  });
+  modal.querySelector('#close-request-modal').addEventListener('click', function(e) {
+    e.preventDefault();
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
+  });
+});
+</script>
+
   <script>
     document.addEventListener('DOMContentLoaded', () => {
 
@@ -222,6 +253,7 @@
 
     });
   </script>
+
 </body>
 
 </html>

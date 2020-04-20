@@ -1616,6 +1616,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .navbar-menu { flex-grow: 1; flex-shrink: 0; }
   .navbar-start { justify-content: flex-start; margin-right: auto; }
   .navbar-start.is-centered { flex-grow: 1; justify-content: center; }
+  .navbar-start.is-centered .navbar-item { padding: 0 2rem; }
   .navbar-end { justify-content: flex-end; margin-left: auto; }
   .navbar-dropdown { background-color: white; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; border-top: 2px solid #dbdbdb; box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1); display: none; font-size: 0.875rem; left: 0; min-width: 100%; position: absolute; top: 100%; z-index: 20; }
   .navbar-dropdown .navbar-item { padding: 0.375rem 1rem; white-space: nowrap; }

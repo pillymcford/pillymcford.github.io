@@ -513,6 +513,9 @@ a.navbar-item,
     &.is-centered {
       flex-grow: 1;
       justify-content: center;
+      .navbar-item {
+        padding: 0 2rem;
+      }
     }
   }
 
