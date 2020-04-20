@@ -181,6 +181,33 @@
     </header>
     <section class="modal-card-body">
       <!-- Content ... -->
+
+      <form action="http://postmail.invotes.com/send"
+      method="post" id="email_form">
+
+      <div class="field">
+        <label class="label">First Name</label>
+        <div class="control">
+          <input class="input" type="text" name="first-name" placeholder="First Name" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="input" name="text" placeholder="Message"></textarea>
+        </div>
+      </div>
+
+      <input type="hidden" name="access_token" value="b374aw4l0gx18vr9tpbtwvp4 " />
+      <input type="hidden" name="success_url" value="." />
+      <input type="hidden" name="error_url" value=".?err=1" />
+
+      <div class="control">
+        <input class="button is-success" id="submit_form" type="submit" value="Send" />
+      </div>
+      </form>
+
     </section>
   </div>
 </div>
