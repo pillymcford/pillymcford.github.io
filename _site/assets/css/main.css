@@ -2407,7 +2407,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .hero-body { flex-grow: 1; flex-shrink: 0; padding: 3rem 1.5rem; }
 
 .dimmed { position: relative; }
-.dimmed:before { content: " "; z-index: 10; display: block; position: absolute; height: 100%; top: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.35); }
+.dimmed:before { content: " "; z-index: 10; display: block; position: absolute; height: 100%; top: 0; left: 0; right: 0; background: -webkit-radial-gradient(top, ellipse cover, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.4) 100%); }
 
 .section { padding: 3rem 1.5rem; }
 @media screen and (min-width: 1024px) { .section.is-medium { padding: 9rem 1.5rem; }
