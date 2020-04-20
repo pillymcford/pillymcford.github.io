@@ -5,7 +5,7 @@ $body-rendering: optimizeLegibility !default;
 $body-family: $family-primary !default;
 $body-overflow-x: hidden !default;
 $body-overflow-y: scroll !default;
-
+$heading-family: 'Lato', sans-serif;
 $body-color: $text !default;
 $body-font-size: 1em !default;
 $body-weight: $weight-normal !default;
@@ -58,7 +58,15 @@ select,
 textarea {
   font-family: $body-family;
 }
-
+// change heading family
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   font-family: $heading-family;
+// }
 code,
 pre {
   -moz-osx-font-smoothing: auto;

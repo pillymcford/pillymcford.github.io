@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 /*! bulma.io v0.8.1 | MIT License | github.com/jgthms/bulma */
@@ -54,7 +55,7 @@ html { background-color: white; font-size: 16px; -moz-osx-font-smoothing: graysc
 
 article, aside, figure, footer, header, hgroup, section { display: block; }
 
-body, button, input, select, textarea { font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+body, button, input, select, textarea { font-family: "Lato", sans-serif; }
 
 code, pre { -moz-osx-font-smoothing: auto; -webkit-font-smoothing: auto; font-family: monospace; }
 
@@ -319,11 +320,11 @@ a.has-text-danger:hover, a.has-text-danger:focus { color: #ee1742 !important; }
 
 .has-text-weight-bold { font-weight: 700 !important; }
 
-.is-family-primary { font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+.is-family-primary { font-family: "Lato", sans-serif !important; }
 
-.is-family-secondary { font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+.is-family-secondary { font-family: "Lato", sans-serif !important; }
 
-.is-family-sans-serif { font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+.is-family-sans-serif { font-family: "Lato", sans-serif !important; }
 
 .is-family-monospace { font-family: monospace !important; }
 

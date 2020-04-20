@@ -70,7 +70,7 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <button class="button is-success" id="show-quote-modal"><strong>Request a Quote</strong></button>
+          <button class="button is-success show-quote-modal"><strong>Request a Quote</strong></button>
         </div>
       </div>
     </div>
@@ -87,9 +87,9 @@
         <h2 class="subtitle has-text-white-bis has-text-shadow">
           McLane Construction is a family run roofing company that has been doing quality work in Bozeman since 2007. We pay close attention to detail and building science, and take pride in our craft and our team.
         </h2>
-        <a href="/contact-us/" class="button is-success">
+        <button class="button is-success show-quote-modal-hero">
           <strong>Request a Quote</strong>
-        </a>
+        </button>
       </div>
     </div>
   </div>
@@ -320,7 +320,7 @@
   </div>
 </div>
 <script>
-document.querySelector('#show-quote-modal').addEventListener('click', function(event) {
+document.querySelector('.show-quote-modal').addEventListener('click', function(event) {
   event.preventDefault();
   var modal = document.querySelector('.modal');  // assuming you have only 1
   var html = document.querySelector('html');
@@ -337,7 +337,30 @@ document.querySelector('#show-quote-modal').addEventListener('click', function(e
     modal.classList.remove('is-active');
     html.classList.remove('is-clipped');
   });
+
 });
+//show modal in hero
+
+document.querySelector('.show-quote-modal-hero').addEventListener('click', function(event) {
+  event.preventDefault();
+  var modal = document.querySelector('.modal');  // assuming you have only 1
+  var html = document.querySelector('html');
+  modal.classList.add('is-active');
+  html.classList.add('is-clipped');
+
+  modal.querySelector('.modal-background').addEventListener('click', function(e) {
+    e.preventDefault();
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
+  });
+  modal.querySelector('#close-request-modal').addEventListener('click', function(e) {
+    e.preventDefault();
+    modal.classList.remove('is-active');
+    html.classList.remove('is-clipped');
+  });
+
+});
+
 </script>
 
   <script>

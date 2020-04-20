@@ -70,7 +70,7 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <button class="button is-success" id="show-quote-modal"><strong>Request a Quote</strong></button>
+          <button class="button is-success show-quote-modal"><strong>Request a Quote</strong></button>
         </div>
       </div>
     </div>
@@ -233,7 +233,7 @@
   </div>
 </div>
 <script>
-document.querySelector('#show-quote-modal').addEventListener('click', function(event) {
+document.querySelector('.show-quote-modal').addEventListener('click', function(event) {
   event.preventDefault();
   var modal = document.querySelector('.modal');  // assuming you have only 1
   var html = document.querySelector('html');
@@ -250,7 +250,10 @@ document.querySelector('#show-quote-modal').addEventListener('click', function(e
     modal.classList.remove('is-active');
     html.classList.remove('is-clipped');
   });
+
 });
+//show modal in hero
+
 </script>
 
   <script>
