@@ -218,8 +218,8 @@
 </section>
 <section class="section">
   <div class="container has-text-centered">
-    <h2 class="title">What's sets McLane Construction apart?</h2>
-    <div class="columns">
+    <h2 class="title">What sets McLane Construction apart?</h2>
+    <div class="columns slider">
       <div class="column">
         <div class="level">
           <div class="level-item">
@@ -253,6 +253,21 @@
     </div>
   </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script>
+  var slider = tns({
+    arrowKeys: true,
+    container: '.slider',
+    items: 1,
+    autoplay: false,
+    mode: 'carousel',
+    controls: false,
+    navPosition: 'bottom',
+    nav: true,
+    autoplayButtonOutput: false,
+    speed: 500
+  });
+</script>
 
 <!-- Jarallax -->
 <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
