@@ -93,9 +93,21 @@
     </div>
   </div>
 </section>
+<!-- Jarallax -->
+<script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
 
+<script>
+  var mq = window.matchMedia("(min-width: 767px)");
+  if (mq.matches) {
+    jarallax(document.querySelectorAll('.jarallax'), {
+      speed: .5,
+      type: "scroll"
+    });
+  }
+</script>
 
-<section class="section">
+  <footer data-section-id="9" data-component-id="29e6_11_02_awz" data-category="footers" class="footer">
+  <section class="section">
   <div class="text container has-text-centered">
     <h2 class="title">What sets McLane Construction apart?</h2>
     <div class="columns slider">
@@ -148,20 +160,6 @@
   });
 </script>
 
-<!-- Jarallax -->
-<script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
-
-<script>
-  var mq = window.matchMedia("(min-width: 767px)");
-  if (mq.matches) {
-    jarallax(document.querySelectorAll('.jarallax'), {
-      speed: .5,
-      type: "scroll"
-    });
-  }
-</script>
-
-  <footer data-section-id="9" data-component-id="29e6_11_02_awz" data-category="footers" class="footer">
   <div class="container">
     <div class="columns">
       <div class="column">
