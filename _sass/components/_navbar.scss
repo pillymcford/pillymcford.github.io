@@ -8,10 +8,10 @@ $navbar-z: 30 !default;
 $navbar-fixed-z: 30 !default;
 
 $navbar-item-color: #fff !default;
-$navbar-item-hover-color: $link !default;
-$navbar-item-hover-background-color: $scheme-main-bis !default;
-$navbar-item-active-color: $link;
-$navbar-item-active-background-color: $grey-lightest;
+$navbar-item-hover-color: #fff !default;
+$navbar-item-hover-background-color: darken($green, 5%) !default;
+$navbar-item-active-color: #fff;
+$navbar-item-active-background-color: darken($green, 5%) !default;
 $navbar-item-img-max-height: 1.75rem !default;
 
 $navbar-burger-color: $navbar-item-color !default;
