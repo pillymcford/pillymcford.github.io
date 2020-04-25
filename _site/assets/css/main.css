@@ -1643,6 +1643,11 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link { background-color: #fafafa; } }
 .hero.is-fullheight-with-navbar { min-height: calc(100vh - 3.25rem); }
 
+@media screen and (min-width: 1088px) { .my-navbar { display: block !important; }
+  .my-navbar .navbar-brand { display: none; }
+  #my-navbar-menu { width: 600px; margin: 0 auto; }
+  #my-navbar-menu > div { flex: 1; }
+  #my-navbar-menu > div > div { flex: 1; justify-content: center; } }
 .pagination { font-size: 1rem; margin: -0.25rem; }
 .pagination.is-small { font-size: 0.75rem; }
 .pagination.is-medium { font-size: 1.25rem; }

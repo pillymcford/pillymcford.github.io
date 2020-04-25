@@ -663,3 +663,23 @@ a.navbar-item,
     min-height: calc(100vh - #{$navbar-height});
   }
 }
+
+@media screen and (min-width: 1088px) {
+  .my-navbar {
+    display: block !important;
+  }
+  .my-navbar .navbar-brand {
+    display: none;
+  }
+  #my-navbar-menu {
+    width: 600px;
+    margin: 0 auto;
+  }
+  #my-navbar-menu>div {
+    flex: 1;
+  }
+  #my-navbar-menu>div>div {
+    flex: 1;
+    justify-content: center;
+  }
+}

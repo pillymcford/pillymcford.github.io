@@ -1,41 +1,38 @@
 <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="/">
-    {% include logo.html %}
-    </a>
-
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start is-centered">
-      <a href="/services/" class="navbar-item{% if page.url == '/services/' %} is-active{% endif %}">
-        <strong>Services</strong>
-      </a>
-
-      <a href="/our-difference/" class="navbar-item{% if page.url == '/our-difference/' %} is-active{% endif %}">
-        <strong>Our Difference</strong>
-      </a>
-
-      <a href="/about-us/" class="navbar-item{% if page.url == '/about-us/' %} is-active{% endif %}">
-        <strong>About Us</strong>
-      </a>
-
-      <a href="/contact-us/" class="navbar-item{% if page.url == '/contact-us/' %} is-active{% endif %}">
-        <strong>Contact Us</strong>
-      </a>
-
+    <div class="navbar-burger burger" data-target="my-navbar-menu">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-
-    <div class="navbar-end">
+  </div>
+  <div id="my-navbar-menu" class="navbar-menu">
+    <div class="navbar-start">
       <div class="navbar-item">
-        <div class="buttons">
-          <button class="button is-success show-quote-modal"><strong>Request a Quote</strong></button>
-        </div>
+        <a href="/services/" class="navbar-item{% if page.url == '/services/' %} is-active{% endif %}">
+            <strong>Services</strong>
+          </a>
+      </div>
+      <div class="navbar-item">
+        <a href="/our-difference/" class="navbar-item{% if page.url == '/our-difference/' %} is-active{% endif %}">
+            <strong>Our Difference</strong>
+          </a>
+
+      </div>
+    </div>
+    <div class="my-navbar-center">
+      <div class="navbar-item">
+        {% include logo.html %}
+      </div>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">      <a href="/about-us/" class="navbar-item{% if page.url == '/about-us/' %} is-active{% endif %}">
+              <strong>About Us</strong>
+            </a>
+      </div>
+      <div class="navbar-item">      <a href="/contact-us/" class="navbar-item{% if page.url == '/contact-us/' %} is-active{% endif %}">
+              <strong>Contact Us</strong>
+            </a>
       </div>
     </div>
   </div>
