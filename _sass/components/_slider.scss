@@ -155,6 +155,8 @@ $perpage: 3;
 .tns-nav {
   text-align: center;
   padding-top: 2.66rem;
+  position: relative;
+  right: 12px;
 }
 
 .tns-nav > [aria-controls] {

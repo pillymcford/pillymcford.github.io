@@ -1799,7 +1799,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .tns-controls [disabled] { color: #999999; background: #B3B3B3; cursor: not-allowed !important; }
 
-.tns-nav { text-align: center; padding-top: 2.66rem; }
+.tns-nav { text-align: center; padding-top: 2.66rem; position: relative; right: 12px; }
 
 .tns-nav > [aria-controls] { width: 23px; height: 23px; padding: 0; margin: 0 5px; border-radius: 50%; background: #A1AFA0; border: 0; }
 
@@ -2487,4 +2487,4 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 @media screen and (min-width: 1024px) { .section.is-medium { padding: 9rem 1.5rem; }
   .section.is-large { padding: 18rem 1.5rem; } }
 
-.footer { background-color: #E9E9DF; padding: 3rem 1.5rem 6rem; }
+.footer { background-color: #E9E9DF; padding: 3rem 1.5rem; }
