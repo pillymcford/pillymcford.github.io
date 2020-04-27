@@ -2489,7 +2489,8 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .dimmed:before { content: " "; z-index: 10; display: block; position: absolute; height: 100%; top: 0; left: 0; right: 0; background: -webkit-radial-gradient(top center, ellipse cover, rgba(0, 0, 0, 0.3) 66%, rgba(255, 255, 255, 0.1) 100%); }
 
 .section { padding: 3rem 1.5rem; }
-@media screen and (min-width: 1024px) { .section.is-medium { padding: 9rem 1.5rem; }
+@media screen and (min-width: 1024px) { .section.is-small { padding: 2rem 1.5rem; }
+  .section.is-medium { padding: 9rem 1.5rem; }
   .section.is-large { padding: 18rem 1.5rem; } }
 
 .footer { background-color: #E9E9DF; padding: 3rem 1.5rem; }
