@@ -9,7 +9,11 @@ $hero-body-padding-large: 18rem 1.5rem !default;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
+  &.home {
+    background-image: url(/assets/images/heros/home-hero.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+  }
   .navbar {
     background: none;
   }
@@ -245,6 +249,6 @@ $hero-body-padding-large: 18rem 1.5rem !default;
     top: 0;
     left: 0;
     right: 0;
-    background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);
+    background: -webkit-radial-gradient(top center, ellipse cover, rgba(0, 0, 0, 0.3) 66%, rgba(255, 255, 255, 0.1) 100%);
   }
 }

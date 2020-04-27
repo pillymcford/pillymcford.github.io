@@ -55,7 +55,7 @@ $navbar-breakpoint: $desktop !default;
 
 .navbar {
   background-color: $navbar-background-color;
-  margin-top: 85px;
+  margin-top: 72px;
   max-height: 40px;
   position: relative;
   z-index: $navbar-z;
@@ -659,9 +659,9 @@ a.navbar-item,
 }
 
 .logo {
-  width: 290px;
+  width: 250px;
   position: relative;
-  top: -93px;
+  top: -81px;
   @media screen and (max-width: 1023px) {
     width: 110px;
     transform: scale(1.5) translateY(3px);
