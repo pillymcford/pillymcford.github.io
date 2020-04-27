@@ -151,21 +151,31 @@
   <div class="text container has-text-centered">
     <h2 class="title">What sets McLane Construction apart?</h2>
     <div class="columns slider">
+      
       <div class="column">
-        <p class="block">It's a really cool network. Like, we had a fight with Richard at one point, and I think they deleted some of my data, but then they brought it back. Just bro's being bro's. Respected!</p>
-        <h5 class="title is-5">Colin</h5>
-        <p class="subtitle">CEO at K-Hole</p>
+        <p class="block is-italic has-text-weight-light is-size-5">I have  worked with many contractors in the area and my experience with McLane has been very good. The consistency of several things impress me:  The quality of their workmanship; Their willingness to go above and beyond as an advocate for their client in dealing with the insurance companies; The efficiency of their crew; Their sensitivity to time constraints of an operating restaurant so as not to inconvenience staff or guests; Site clean up and attention to detail.  I have had the pleasure of knowing the owner Pete McLane of over six years both personally and professionally and I think very highly of his personal integrity and work ethic.  I would definitely hire his company again.</p>
+        <h5 class="title is-5">&mdash;Pete Strom</h5>
+        <p class="subtitle">Owner/Operator of La Parrilla and The Garage</p>
       </div>
+      
       <div class="column">
-        <p class="block">This is such a great product that I feel aroused every time I use it. I didn't know the boys would be able to build, but god damn it, they did it. Kickass!</p>
-        <h5 class="title is-5">Russ Hanneman</h5>
-        <p class="subtitle">Investor, Angel, Great Guy</p>
+        <p class="block is-italic has-text-weight-light is-size-5">Pete and the McLane Construction crew exceeded my expectations. They  re-sided my house after hail damage and were efficient, professional and worked  with the insurance company, which was no easy task.  Everything came  in as budgeted.  I have recommended him to my friends and they too are  very happy with his work. I'd use him again without hesitation.</p>
+        <h5 class="title is-5">&mdash;Doug Chabot</h5>
+        <p class="subtitle"></p>
       </div>
+      
       <div class="column">
-        <p class="block">Even though I have been dismantled, I live on as an artificial intelligence on the PiperNet. I really like it here. Still waiting for Jared to Piper-chat with me sometime.</p>
-        <h5 class="title is-5">Fiona</h5>
-        <p class="subtitle">Artificial Intelligence</p>
+        <p class="block is-italic has-text-weight-light is-size-5">When working with McLane Construction I found many attributes beneficial : your craftsmanship and attention to detail, professionalism , and flexibility.  You did a great job of working within the agreed upon budget while at the same time providing exceptional quality.  When faced with a budget limitation on an enhancement  that we requested, you demonstrated flexibility and creativity in enabling the project to proceed.  I appreciate the work that you did directly with my insurance company both in advance of getting stared and during the renovation.  Your team ensured that the waste from the construction was cleaned up each evening before leaving, which was particularly important to me given that we have young children.  Thank you for making such a dramatic enhancement to our home.</p>
+        <h5 class="title is-5">&mdash;Jeff Baker</h5>
+        <p class="subtitle"></p>
       </div>
+      
+      <div class="column">
+        <p class="block is-italic has-text-weight-light is-size-5">Pete demonstrated excellent craftsmanship re-roofing our home in historic downtown Bozeman. He provided a high degree of professionalism and was a pleasure to work with. He has a notable attention to detail and it is clear that he takes pride in all aspects of his work. We appreciated his thoughtful input throughout the process and his commitment to constructing a product, specific to our wants and needs.</p>
+        <h5 class="title is-5">&mdash;Ben and Jessica</h5>
+        <p class="subtitle"></p>
+      </div>
+      
     </div>
   </div>
 </section>
@@ -192,69 +202,6 @@
     <p class="subtitle has-text-centered is-6" data-config-id="copyright">© 2020 McLane Construction. All right reserved.</p>
   </div>
 </footer>
-
-  <div class="modal">
-  <div class="modal-background"></div>
-  <div class="modal-card">
-    <header class="modal-card-head">
-      <p class="modal-card-title">Request a Quote</p>
-      <button class="delete" id="close-request-modal" aria-label="close"></button>
-    </header>
-    <section class="modal-card-body">
-      <!-- Content ... -->
-
-      <form action="http://postmail.invotes.com/send"
-      method="post" id="email_form">
-
-      <div class="field">
-        <label class="label">First Name</label>
-        <div class="control">
-          <input class="input" type="text" name="first-name" placeholder="First Name" />
-        </div>
-      </div>
-
-      <div class="field">
-        <label class="label">Message</label>
-        <div class="control">
-          <textarea class="input" name="text" placeholder="Message"></textarea>
-        </div>
-      </div>
-
-      <input type="hidden" name="access_token" value="b374aw4l0gx18vr9tpbtwvp4 " />
-      <input type="hidden" name="success_url" value="." />
-      <input type="hidden" name="error_url" value=".?err=1" />
-
-      <div class="control">
-        <input class="button is-success" id="submit_form" type="submit" value="Send" />
-      </div>
-      </form>
-
-    </section>
-  </div>
-</div>
-<script>
-document.querySelector('.show-quote-modal').addEventListener('click', function(event) {
-  event.preventDefault();
-  var modal = document.querySelector('.modal');  // assuming you have only 1
-  var html = document.querySelector('html');
-  modal.classList.add('is-active');
-  html.classList.add('is-clipped');
-
-  modal.querySelector('.modal-background').addEventListener('click', function(e) {
-    e.preventDefault();
-    modal.classList.remove('is-active');
-    html.classList.remove('is-clipped');
-  });
-  modal.querySelector('#close-request-modal').addEventListener('click', function(e) {
-    e.preventDefault();
-    modal.classList.remove('is-active');
-    html.classList.remove('is-clipped');
-  });
-
-});
-//show modal in hero
-
-</script>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {

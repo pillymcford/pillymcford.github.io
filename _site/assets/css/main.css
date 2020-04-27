@@ -1761,7 +1761,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .tns-slider > .tns-item { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 .tns-horizontal.tns-subpixel { white-space: nowrap; }
-.tns-horizontal.tns-subpixel > .tns-item { display: inline-block; vertical-align: top; white-space: normal; }
+.tns-horizontal.tns-subpixel > .tns-item { display: inline-block; vertical-align: top; white-space: normal; padding-bottom: 16px; }
 .tns-horizontal.tns-no-subpixel:after { content: ''; display: table; clear: both; }
 .tns-horizontal.tns-no-subpixel > .tns-item { float: left; }
 .tns-horizontal.tns-carousel.tns-no-subpixel > .tns-item { margin-right: -100%; }
@@ -1802,7 +1802,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .tns-controls [disabled] { color: #999999; background: #B3B3B3; cursor: not-allowed !important; }
 
-.tns-nav { text-align: center; padding-top: 2.66rem; position: relative; right: 12px; }
+.tns-nav { text-align: center; padding-top: 1.36rem; position: relative; right: 12px; }
 
 .tns-nav > [aria-controls] { width: 23px; height: 23px; padding: 0; margin: 0 5px; border-radius: 50%; background: #A1AFA0; border: 0; }
 

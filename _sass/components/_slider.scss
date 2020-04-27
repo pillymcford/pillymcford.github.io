@@ -21,6 +21,7 @@
       display: inline-block;
       vertical-align: top;
       white-space: normal;
+      padding-bottom: 16px;
     }
   }
   &.tns-no-subpixel {
@@ -154,7 +155,7 @@ $perpage: 3;
 
 .tns-nav {
   text-align: center;
-  padding-top: 2.66rem;
+  padding-top: 1.36rem;
   position: relative;
   right: 12px;
 }
