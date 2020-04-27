@@ -1437,6 +1437,8 @@ a.list-item { background-color: whitesmoke; cursor: pointer; }
 .modal-card-body { -webkit-overflow-scrolling: touch; background-color: white; flex-grow: 1; flex-shrink: 1; overflow: auto; padding: 20px; }
 
 .navbar { background-color: #28903A; margin-top: 72px; max-height: 40px; position: relative; z-index: 30; }
+.navbar:before { content: ''; background-color: #fff; position: fixed; width: 100vw; height: 72px; top: 0; }
+@media screen and (max-width: 1023px) { .navbar:before { display: none; } }
 @media screen and (max-width: 1023px) { .navbar { margin-top: 0; max-height: none; } }
 .navbar.is-white { background-color: white; color: #0a0a0a; }
 .navbar.is-white .navbar-brand > .navbar-item, .navbar.is-white .navbar-brand .navbar-link { color: #0a0a0a; }
@@ -1545,7 +1547,8 @@ a.list-item { background-color: whitesmoke; cursor: pointer; }
 .navbar.is-fixed-bottom.has-shadow { box-shadow: 0 -2px 0 0 whitesmoke; }
 .navbar.is-fixed-top { top: 0; }
 
-html.has-navbar-fixed-top, body.has-navbar-fixed-top { padding-top: 4.35rem; }
+html.has-navbar-fixed-top, body.has-navbar-fixed-top { padding-top: 8.8rem; }
+@media screen and (max-width: 1023px) { html.has-navbar-fixed-top, body.has-navbar-fixed-top { padding-top: 4.35rem; } }
 html.has-navbar-fixed-bottom, body.has-navbar-fixed-bottom { padding-bottom: 4.35rem; }
 
 .navbar-brand, .navbar-tabs { align-items: stretch; display: flex; flex-shrink: 0; min-height: 4.35rem; }

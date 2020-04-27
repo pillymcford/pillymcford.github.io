@@ -59,6 +59,17 @@ $navbar-breakpoint: $desktop !default;
   max-height: 40px;
   position: relative;
   z-index: $navbar-z;
+  &:before {
+    content: '';
+    background-color: #fff;
+    position: fixed;
+    width: 100vw;
+    height: 72px;
+    top: 0;
+    @media screen and (max-width: 1023px) {
+      display: none;
+    }
+  }
   @media screen and (max-width: 1023px) {
     margin-top: 0;
     max-height: none;
@@ -174,7 +185,10 @@ $navbar-breakpoint: $desktop !default;
 html,
 body {
   &.has-navbar-fixed-top {
-    padding-top: $navbar-height;
+    padding-top: 8.8rem;
+    @media screen and (max-width: 1023px) {
+      padding-top: $navbar-height;
+    }
   }
 
   &.has-navbar-fixed-bottom {
