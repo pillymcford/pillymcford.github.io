@@ -1,7 +1,7 @@
 $navbar-background-color: #28903A !default;
 $navbar-box-shadow-size: 0 2px 0 0 !default;
 $navbar-box-shadow-color: $background !default;
-$navbar-height: 6.25rem !default;
+$navbar-height: 4.35rem !default;
 $navbar-padding-vertical: 1rem !default;
 $navbar-padding-horizontal: 2rem !default;
 $navbar-z: 30 !default;
@@ -55,10 +55,14 @@ $navbar-breakpoint: $desktop !default;
 
 .navbar {
   background-color: $navbar-background-color;
-  min-height: $navbar-height;
+  margin-top: 85px;
+  max-height: 40px;
   position: relative;
   z-index: $navbar-z;
-
+  @media screen and (max-width: 1023px) {
+    margin-top: 0;
+    max-height: none;
+  }
   @each $name, $pair in $colors {
     $color: nth($pair, 1);
     $color-invert: nth($pair, 2);
@@ -402,7 +406,6 @@ a.navbar-item,
 
   .navbar {
     min-height: $navbar-height;
-
     &.is-spaced {
       padding: $navbar-padding-vertical $navbar-padding-horizontal;
 
@@ -655,6 +658,16 @@ a.navbar-item,
   }
 }
 
+.logo {
+  width: 290px;
+  position: relative;
+  top: -92px;
+  @media screen and (max-width: 1023px) {
+    width: 110px;
+    transform: scale(1.5) translateY(3px);
+    position: static;
+  }
+}
 
 // Combination
 

@@ -1,8 +1,10 @@
-<nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
+<nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <div class="navbar-item is-hidden-desktop">
       <a href="/">
-        {% include logo.html %}
+        <div class="logo">
+          {% include logo.html %}
+        </div>
       </a>
     </div>
     <div class="navbar-burger burger" data-target="my-navbar-menu">
@@ -28,7 +30,9 @@
     <div class="my-navbar-center">
       <div class="navbar-item is-hidden-touch">
         <a href="/">
-          {% include logo.html %}
+          <div class="logo">
+              {% include logo.html %}
+          </div>
         </a>
       </div>
     </div>
