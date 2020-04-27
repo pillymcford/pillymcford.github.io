@@ -146,7 +146,7 @@ $navbar-breakpoint: $desktop !default;
   }
 
   &.has-shadow {
-    filter: drop-shadow(0 -8px 12px #3E4A3D);
+    box-shadow: 0 2px 0 0 #248434;
   }
 
   &.is-fixed-bottom,

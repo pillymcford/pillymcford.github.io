@@ -1538,7 +1538,7 @@ a.list-item { background-color: whitesmoke; cursor: pointer; }
   .navbar.is-danger .navbar-item.has-dropdown:focus .navbar-link, .navbar.is-danger .navbar-item.has-dropdown:hover .navbar-link, .navbar.is-danger .navbar-item.has-dropdown.is-active .navbar-link { background-color: #ec163c; color: #fff; }
   .navbar.is-danger .navbar-dropdown a.navbar-item.is-active { background-color: #EE2E50; color: #fff; } }
 .navbar > .container { align-items: stretch; display: flex; min-height: 6.25rem; width: 100%; }
-.navbar.has-shadow { filter: drop-shadow(0 -8px 12px #3E4A3D); }
+.navbar.has-shadow { box-shadow: 0 2px 0 0 #248434; }
 .navbar.is-fixed-bottom, .navbar.is-fixed-top { left: 0; position: fixed; right: 0; z-index: 30; }
 .navbar.is-fixed-bottom { bottom: 0; }
 .navbar.is-fixed-bottom.has-shadow { box-shadow: 0 -2px 0 0 whitesmoke; }
