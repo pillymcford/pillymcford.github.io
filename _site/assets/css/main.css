@@ -1644,7 +1644,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   a.navbar-item.is-active, .navbar-link.is-active { color: #fff; }
   a.navbar-item.is-active:not(:focus):not(:hover), .navbar-link.is-active:not(:focus):not(:hover) { background-color: #227c32; }
   .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link { background-color: #227c32; } }
-.logo { width: 290px; position: relative; top: -92px; }
+.logo { width: 290px; position: relative; top: -93px; }
 @media screen and (max-width: 1023px) { .logo { width: 110px; transform: scale(1.5) translateY(3px); position: static; } }
 
 .hero.is-fullheight-with-navbar { min-height: calc(100vh - 4.35rem); }
@@ -2487,4 +2487,4 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 @media screen and (min-width: 1024px) { .section.is-medium { padding: 9rem 1.5rem; }
   .section.is-large { padding: 18rem 1.5rem; } }
 
-.footer { background-color: #fafafa; padding: 3rem 1.5rem 6rem; }
+.footer { background-color: #E9E9DF; padding: 3rem 1.5rem 6rem; }
