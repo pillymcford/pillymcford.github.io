@@ -685,15 +685,15 @@ a.navbar-item,
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     font-style: italic;
     position: relative;
-    top: -4px;
+    top: -6px;
     letter-spacing: 2.2px;
-    font-size: .85rem;
+    font-size: .9rem;
     @media screen and (max-width: 1023px) {
       position: absolute;
-      top: 16px;
+      top: 18px;
       letter-spacing: 2px;
-      font-size: 0.65rem;
-      right: -150px;
+      font-size: 0.55rem;
+      right: -140px;
     }
   }
   @media screen and (max-width: 1023px) {
