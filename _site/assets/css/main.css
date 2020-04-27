@@ -934,7 +934,7 @@ a.tag:hover { text-decoration: underline; }
 .title sup, .subtitle sup { font-size: 0.75em; }
 .title .tag, .subtitle .tag { vertical-align: middle; }
 
-.title { color: #363636; font-size: 2rem; font-weight: 600; line-height: 1.125; }
+.title { color: #3E4A3D; font-size: 2rem; font-weight: 600; line-height: 1.125; }
 .title strong { color: inherit; font-weight: inherit; }
 .title + .highlight { margin-top: -0.75rem; }
 .title:not(.is-spaced) + .subtitle { margin-top: -1.25rem; }
