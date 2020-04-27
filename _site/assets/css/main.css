@@ -69,7 +69,7 @@ a:hover { color: #363636; }
 
 code { background-color: whitesmoke; color: #EE2E50; font-size: 0.875em; font-weight: normal; padding: 0.25em 0.5em 0.25em; }
 
-hr { background-color: whitesmoke; border: none; display: block; height: 2px; margin: 1.5rem 0; }
+hr { background-color: #A1AFA0; border: none; display: block; height: 1px; margin: 1.5rem 0; }
 
 img { height: auto; max-width: 100%; }
 
