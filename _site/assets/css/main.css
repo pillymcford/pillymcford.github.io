@@ -1648,7 +1648,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   a.navbar-item.is-active:not(:focus):not(:hover), .navbar-link.is-active:not(:focus):not(:hover) { background-color: #227c32; }
   .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link { background-color: #227c32; } }
 .logo { width: 250px; position: relative; top: -81px; }
-.logo:after { content: 'Crafted Eave to Peak.'; color: #fff; display: block; text-align: center; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); font-style: italic; position: relative; top: -6px; letter-spacing: 2.2px; font-size: .9rem; }
+.logo:after { content: 'Crafted Eave to Peak'; color: #fff; display: block; text-align: center; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); font-style: italic; position: relative; top: -6px; letter-spacing: 2.2px; font-size: .9rem; }
 @media screen and (max-width: 1023px) { .logo:after { position: absolute; top: 21px; letter-spacing: 1.6px; font-size: 0.35rem; right: -95px; } }
 @media screen and (max-width: 1023px) { .logo { width: 110px; transform: scale(1.5) translateY(3px); position: static; } }
 
@@ -2299,7 +2299,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
   .tile.is-12 { flex: none; width: 100%; } }
 
 .hero { align-items: stretch; display: flex; flex-direction: column; justify-content: space-between; }
-.hero.home { background-image: url(/assets/images/heros/home-hero.jpg); background-size: cover; background-position-y: bottom; }
+.hero.home { background-image: url(/assets/images/heros/home-hero.jpg); background-size: cover; background-position-y: bottom; background-position-x: center; }
 .hero .navbar { background: none; }
 .hero .tabs ul { border-bottom: none; }
 .hero.is-white { background-color: white; color: #0a0a0a; }
