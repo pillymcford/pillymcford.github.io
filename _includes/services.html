@@ -2,26 +2,26 @@
   <div class="container">
     <h2 class="title has-text-centered">Our Services</h2>
     <div class="columns is-multiline">
+      {% for item in site.services %}
       <div class="column is-4">
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="/assets/images/services/asphalt.jpg" alt="Asphalt Shingles">
+              <img src="{{ item.image }}" alt="{{ item.title }}" class="modal-button" data-target="{{ item.title | remove: " " | remove: "&" }}">
             </figure>
           </div>
           <div class="card-content">
             <div class="content">
-               <p class="card-header-title is-centered">Asphalt Shingles</p>
+               <p class="card-header-title is-centered">{{ item.title }}</p>
             </div>
           </div>
           <footer class="card-footer">
-            <a href="#" class="card-footer-item">
-              Learn More
-            </a>
+
           </footer>
         </div>
       </div>
-      <div class="column is-4">
+      {% endfor %}
+      <!-- <div class="column is-4">
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
@@ -115,7 +115,7 @@
             </a>
           </footer>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
