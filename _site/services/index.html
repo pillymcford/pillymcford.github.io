@@ -341,6 +341,10 @@
         };
 
         var openModal = function () {
+            var openModal = document.querySelectorAll('.modal.' + elements.active);
+            openModal.forEach(function (modal) {
+                modal.classList.remove(elements.active);
+            })
             var modal = this.getAttribute(elements.target);
             freeze();
             document.getElementById(modal).classList.add(elements.active);
