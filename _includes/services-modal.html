@@ -6,11 +6,24 @@
             <button class="modal-button-close delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
+          <div class="columns">
+            {% for imageitem in item.images %}
+          <div class="column">
+            <img src="{{ imageitem.image }}" alt="{{ item.title }}" />
+          </div>
+          {% endfor %}
+          <div class="column">
           {{ item.content | markdownify }}
+        </div>
+        </columns>
         </section>
         <footer class="modal-card-foot">
-            <button class="modal-button-close button is-success">Save changes</button>
-            <button class="modal-button-close button">Cancel</button>
+            {% if item.next.title.size > 0 %}
+              <p class="modal-button" data-target="{{ item.next.title | remove: " " | remove: "&" }}">{{ item.next.title }}</p>
+            {% endif %}
+            {% if item.previous.title.size > 0 %}
+              <p class="modal-button" data-target="{{ item.previous.title | remove: " " | remove: "&" }}">{{ item.previous.title }}</p>
+            {% endif %}
         </footer>
     </div>
 </div>
