@@ -1,8 +1,8 @@
 
 // Modal minimal setup
-$transition-duration: .3s;
+$transition-duration: .2s;
 $modal-perspective: 1300px;
-$modal-bg-color: rgba($black,.86);
+$modal-bg-color: rgba($black,.66);
 
 .modal {
     display: flex;
@@ -22,7 +22,7 @@ $modal-bg-color: rgba($black,.86);
     }
     &.modal-two-thirds-screen {
       .modal-content {
-          max-height: 70vh;
+          max-height: 86vh;
           width: 100%;
           height: 100%;
       }

@@ -106,6 +106,8 @@ table th { color: #363636; }
 
 .has-z-index-10 { z-index: 10; }
 
+.has-cursor { cursor: pointer; }
+
 .is-clipped { overflow: hidden !important; }
 
 .is-size-1 { font-size: 3rem !important; }
@@ -1426,6 +1428,7 @@ a.list-item { background-color: whitesmoke; cursor: pointer; }
 .modal-card { display: flex; flex-direction: column; max-height: calc(100vh - 40px); overflow: hidden; -ms-overflow-y: visible; }
 
 .modal-card-head, .modal-card-foot { align-items: center; background-color: whitesmoke; display: flex; flex-shrink: 0; justify-content: flex-start; padding: 20px; position: relative; }
+.modal-card-head.is-spaced-between, .modal-card-foot.is-spaced-between { justify-content: space-between; }
 
 .modal-card-head { border-bottom: 1px solid #dbdbdb; border-top-left-radius: 6px; border-top-right-radius: 6px; }
 
@@ -2498,13 +2501,13 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .footer { background-color: #E9E9DF; padding: 3rem 1.5rem; }
 
 .modal { display: flex; visibility: hidden; }
-.modal .modal-background { transition: all 0.3s; opacity: 0; }
+.modal .modal-background { transition: all 0.2s; opacity: 0; }
 .modal.is-active { visibility: visible; }
 .modal.is-active .modal-background { opacity: 1; }
-.modal.modal-two-thirds-screen .modal-content { max-height: 70vh; width: 100%; height: 100%; }
+.modal.modal-two-thirds-screen .modal-content { max-height: 86vh; width: 100%; height: 100%; }
 .modal.modal-full-screen .modal-background { background-color: #fff; }
 .modal.modal-full-screen .modal-content { width: 100%; height: 100%; max-height: 100vh; margin: 0; background-color: #fff; }
-.modal.modal-fx-fadeInScale .modal-content { transform: scale(0.7); opacity: 0; transition: all 0.3s; }
+.modal.modal-fx-fadeInScale .modal-content { transform: scale(0.7); opacity: 0; transition: all 0.2s; }
 .modal.modal-fx-fadeInScale.is-active .modal-content { transform: scale(1); opacity: 1; }
 .modal .modal-content.is-huge { width: 100%; margin: 0px 20px; max-height: calc(100vh - 40px); }
 @media screen and (min-width: 769px) { .modal .modal-content.is-huge { width: 100%; margin: 0px 20px; max-height: calc(100vh - 40px); } }
@@ -2516,4 +2519,4 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .modal.modal-pos-top .modal-content { margin-top: 1rem; }
 .modal.modal-pos-bottom { align-items: flex-end; }
 .modal.modal-pos-bottom .modal-content { margin-bottom: 1rem; }
-.modal .modal-background { background-color: rgba(10, 10, 10, 0.86); }
+.modal .modal-background { background-color: rgba(10, 10, 10, 0.66); }

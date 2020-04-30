@@ -18,11 +18,13 @@
         </div>
         </columns>
         </section>
-        <footer class="modal-card-foot">
-            {% if item.next.title.size > 0 %}
-              <p class="modal-button" data-target="{{ item.next.title | remove: " " | remove: "&" }}">{{ item.next.title }}</p>
+        <footer class="modal-card-foot is-spaced-between">
+
+         <a href="/contact-us/" class="button is-primary">Get a quote</a>
+            {% if item.next %}
+              <p class="modal-button is-size-5 has-cursor" data-target="{{ item.next.title | remove: " " | remove: "&" }}"><span class="has-text-grey">Next Service: </span>{{ item.next.title }}</p>
               {% else %}
-              <p class="modal-button" data-target="{{ item.previous.title | remove: " " | remove: "&" }}">{{ item.first.title }}</p>
+                <button class="modal-button-close button">Close</button>
             {% endif %}
         </footer>
     </div>

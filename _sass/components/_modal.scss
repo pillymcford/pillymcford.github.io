@@ -95,6 +95,9 @@ $modal-card-body-padding: 20px !default;
   justify-content: flex-start;
   padding: $modal-card-head-padding;
   position: relative;
+  &.is-spaced-between {
+    justify-content: space-between;
+  }
 }
 
 .modal-card-head {
