@@ -1,5 +1,6 @@
 {% for item in site.services %}
-<div id="{{ item.title | remove: " " | remove: "&" }}" class="modal modal-full-screen modal-fx-fadeInScale">
+<div id="{{ item.title | remove: " " | remove: "&" }}" class="modal modal-two-thirds-screen modal-pos-top modal-fx-fadeInScale">
+    <div class="modal-background"></div>
     <div class="modal-content modal-card">
         <header class="modal-card-head">
             <p class="modal-card-title">{{ item.title }}</p>

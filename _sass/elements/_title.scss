@@ -77,7 +77,7 @@ $subtitle-negative-margin: -1.25rem !default;
 
 .subtitle {
   color: $subtitle-color;
-
+  letter-spacing: -.35px;
   @if $subtitle-family {
     font-family: $subtitle-family;
   }
