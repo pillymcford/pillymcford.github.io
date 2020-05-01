@@ -23,7 +23,26 @@ $card-media-margin: $block-spacing !default;
   color: $card-color;
   max-width: 100%;
   position: relative;
-}
+  &:hover {
+    &.services {
+      .card-content {
+        transform: translateY(0px);
+        }
+      }
+  }
+  &.services {
+    overflow: hidden;
+    .card-content {
+      background-color: rgba(144, 188, 143, 0.8);
+      padding: .5rem;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      transform: translateY(60px);
+      transition: .3s ease;
+      }
+    }
+  }
 
 .card-header {
   background-color: $card-header-background-color;
