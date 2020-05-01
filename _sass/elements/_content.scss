@@ -1,5 +1,5 @@
 $content-heading-color: $text-strong !default;
-$content-heading-weight: $weight-semibold !default;
+$content-heading-weight: 500 !default;
 $content-heading-line-height: 1.125 !default;
 
 $content-blockquote-background-color: $background !default;
@@ -47,6 +47,7 @@ $content-table-foot-cell-color: $text-strong !default;
     color: $content-heading-color;
     font-weight: $content-heading-weight;
     line-height: $content-heading-line-height;
+    text-transform: uppercase;
   }
 
   h1 {
