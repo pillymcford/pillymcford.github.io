@@ -2500,7 +2500,8 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .section { padding: 3rem 1.5rem; }
 @media screen and (min-width: 1024px) { .section.is-small { padding: 2rem 1.5rem; }
   .section.is-medium { padding: 9rem 1.5rem; }
-  .section.is-large { padding: 18rem 1.5rem; } }
+  .section.is-large { padding: 18rem 1.5rem; }
+  .section.has-no-side-padding { padding: 3rem 0; } }
 
 .subsection { padding-top: 2rem; }
 
