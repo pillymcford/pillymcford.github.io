@@ -1,7 +1,7 @@
 $title-color: #3E4A3D !default;
 $title-family: false !default;
 $title-size: $size-3 !default;
-$title-weight: $weight-semibold !default;
+$title-weight: 500 !default;
 $title-line-height: 1.125 !default;
 $title-strong-color: inherit !default;
 $title-strong-weight: inherit !default;
@@ -22,7 +22,7 @@ $subtitle-negative-margin: -1.25rem !default;
   @extend %block;
 
   word-break: break-word;
-
+  text-transform: uppercase;
   em,
   span {
     font-weight: inherit;

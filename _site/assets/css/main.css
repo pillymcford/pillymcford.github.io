@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap");
 body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 /*! bulma.io v0.8.1 | MIT License | github.com/jgthms/bulma */
@@ -933,13 +933,13 @@ a.box:active { box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #009
 
 a.tag:hover { text-decoration: underline; }
 
-.title, .subtitle { word-break: break-word; }
+.title, .subtitle { word-break: break-word; text-transform: uppercase; }
 .title em, .title span, .subtitle em, .subtitle span { font-weight: inherit; }
 .title sub, .subtitle sub { font-size: 0.75em; }
 .title sup, .subtitle sup { font-size: 0.75em; }
 .title .tag, .subtitle .tag { vertical-align: middle; }
 
-.title { color: #3E4A3D; font-size: 2rem; font-weight: 600; line-height: 1.125; }
+.title { color: #3E4A3D; font-size: 2rem; font-weight: 500; line-height: 1.125; }
 .title strong { color: inherit; font-weight: inherit; }
 .title + .highlight { margin-top: -0.75rem; }
 .title:not(.is-spaced) + .subtitle { margin-top: -1.25rem; }
