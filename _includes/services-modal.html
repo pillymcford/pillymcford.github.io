@@ -9,21 +9,18 @@
         <section class="modal-card-body">
           <div class="columns">
               <div class="column is-6">
-                <div class="columns">
-                  <div class="column is-9">{% for imageitem in item.images | limit: 1 %}<img src="{{ imageitem.image }}" alt="{{ item.title }}" /> {% endfor %}</div>
-                  <div class="column is-3">
-                  <div class="columns is-mobile is-multiline">
-                    {% for imageitem in item.images | offset: 1  | limit: 3 %}
-                    <div class="column is-4-mobile is-12-tablet"><img src="{{ imageitem.image }}" alt="{{ item.title }}" /></div>
-                    {% endfor %}
+                <div class="columns is-multiline">
+                  {% for imageitem in item.images %}
+                  <div class="column is-6">
+                    <img src="{{ imageitem.image }}" alt="{{ item.title }}" />
                   </div>
+                    {% endfor %}
                 </div>
-            </div>
+              </div>
+            <div class="column is-6">
+            {{ item.content | markdownify }}
           </div>
-          <div class="column is-6">
-          {{ item.content | markdownify }}
         </div>
-      </div>
         </section>
         <footer class="modal-card-foot is-spaced-between">
 
