@@ -22,7 +22,6 @@ $subtitle-negative-margin: -1.25rem !default;
   @extend %block;
 
   word-break: break-word;
-  text-transform: uppercase;
   em,
   span {
     font-weight: inherit;
@@ -43,7 +42,7 @@ $subtitle-negative-margin: -1.25rem !default;
 
 .title {
   color: $title-color;
-
+  text-transform: uppercase;
   @if $title-family {
     font-family: $title-family;
   }
