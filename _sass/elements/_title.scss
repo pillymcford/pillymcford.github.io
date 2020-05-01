@@ -33,6 +33,8 @@ $subtitle-negative-margin: -1.25rem !default;
 
   sup {
     font-size: $title-sup-size;
+    position: relative;
+    top: 9px;
   }
 
   .tag {

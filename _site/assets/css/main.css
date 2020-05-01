@@ -90,6 +90,8 @@ table td, table th { vertical-align: top; }
 table td:not([align]), table th:not([align]) { text-align: left; }
 table th { color: #363636; }
 
+sup { position: relative; top: 4px; }
+
 .is-clearfix::after { clear: both; content: " "; display: table; }
 
 .is-pulled-left { float: left !important; }
@@ -936,7 +938,7 @@ a.tag:hover { text-decoration: underline; }
 .title, .subtitle { word-break: break-word; }
 .title em, .title span, .subtitle em, .subtitle span { font-weight: inherit; }
 .title sub, .subtitle sub { font-size: 0.75em; }
-.title sup, .subtitle sup { font-size: 0.75em; }
+.title sup, .subtitle sup { font-size: 0.75em; position: relative; top: 9px; }
 .title .tag, .subtitle .tag { vertical-align: middle; }
 
 .title { color: #3E4A3D; text-transform: uppercase; font-size: 2rem; font-weight: 500; line-height: 1.125; }
