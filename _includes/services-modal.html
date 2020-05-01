@@ -1,5 +1,5 @@
 {% for item in site.services %}
-<div id="{{ item.title | remove: " " | remove: "&" }}" class="modal modal-two-thirds-screen modal-pos-top modal-fx-fadeInScale">
+<div id="{{ item.title | remove: " " | remove: "&" }}" class="modal modal-two-thirds-screen modal-pos-top">
     <div class="modal-background"></div>
     <div class="modal-content modal-card">
         <header class="modal-card-head">
@@ -22,7 +22,7 @@
 
          <a href="/contact-us/" class="button is-primary">Get a quote</a>
             {% if item.next %}
-              <p class="modal-button is-size-5 has-cursor" data-target="{{ item.next.title | remove: " " | remove: "&" }}"><span class="has-text-grey">Next Service: </span>{{ item.next.title }}</p>
+              <p class="modal-button is-size-5 has-cursor" data-target="{{ item.next.title | remove: " " | remove: "&" }}"><span class="has-text-grey">Next Service: </span>{{ item.next.title }} &rarr;</p>
               {% else %}
                 <button class="modal-button-close button">Close</button>
             {% endif %}

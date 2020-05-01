@@ -218,6 +218,8 @@ table th { color: #363636; }
 
 .is-italic { font-style: italic !important; }
 
+.is-underlined { text-decoration: underline !important; }
+
 .has-text-white { color: white !important; }
 
 a.has-text-white:hover, a.has-text-white:focus { color: #e6e6e6 !important; }
@@ -1265,8 +1267,8 @@ a.tag:hover { text-decoration: underline; }
 
 .card { background-color: white; box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02); color: #3E4A3D; max-width: 100%; position: relative; }
 .card:hover.services .card-content { transform: translateY(0px); }
-.card.services { overflow: hidden; }
-.card.services .card-content { background-color: rgba(144, 188, 143, 0.8); padding: .5rem; position: absolute; bottom: 0; width: 100%; transform: translateY(60px); transition: .3s ease; }
+.card.services { overflow: hidden; text-align: center; }
+.card.services .card-content { background-color: rgba(144, 188, 143, 0.9); padding: .5rem; position: absolute; bottom: 0; width: 100%; transform: translateY(60px); transition: .3s ease; }
 
 .card-header { background-color: transparent; align-items: stretch; box-shadow: 0 0.125em 0.25em rgba(10, 10, 10, 0.1); display: flex; }
 
@@ -1813,7 +1815,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .tns-nav > [aria-controls] { width: 23px; height: 23px; padding: 0; margin: 0 5px; border-radius: 50%; background: #A1AFA0; border: 0; }
 
-.tns-nav > .tns-nav-active { background: #0092CF; }
+.tns-nav > .tns-nav-active { background: #28903a; }
 
 .tns-controls [aria-controls] { font-size: 15px; margin: 0 5px; padding: 0 1em; height: 2.5em; color: #3b2628; background: #aae5e4; border-radius: 3px; border: 1px solid #d3c3bf; }
 

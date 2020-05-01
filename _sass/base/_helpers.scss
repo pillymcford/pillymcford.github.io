@@ -173,6 +173,9 @@ $alignments: ("centered": "center", "justified": "justify", "left": "left", "rig
 .is-italic {
   font-style: italic !important;
 }
+.is-underlined {
+  text-decoration: underline!important;
+}
 
 @each $name, $pair in $colors {
   $color: nth($pair, 1);

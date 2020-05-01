@@ -32,8 +32,9 @@ $card-media-margin: $block-spacing !default;
   }
   &.services {
     overflow: hidden;
+    text-align: center;
     .card-content {
-      background-color: rgba(144, 188, 143, 0.8);
+      background-color: rgba(144, 188, 143, 0.9);
       padding: .5rem;
       position: absolute;
       bottom: 0;
