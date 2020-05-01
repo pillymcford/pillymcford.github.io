@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
 body { background: #ffffff; color: #000000; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 /*! bulma.io v0.8.1 | MIT License | github.com/jgthms/bulma */
@@ -938,11 +938,12 @@ a.tag:hover { text-decoration: underline; }
 .title, .subtitle { word-break: break-word; }
 .title em, .title span, .subtitle em, .subtitle span { font-weight: inherit; }
 .title sub, .subtitle sub { font-size: 0.75em; }
-.title sup, .subtitle sup { font-size: 0.75em; position: relative; top: 9px; }
+.title sup, .subtitle sup { font-size: 0.75em; }
 .title .tag, .subtitle .tag { vertical-align: middle; }
 
 .title { color: #3E4A3D; text-transform: uppercase; font-size: 2rem; font-weight: 500; line-height: 1.125; }
 .title strong { color: inherit; font-weight: inherit; }
+.title sup { font-size: 0.75em; position: relative; top: 9px; }
 .title + .highlight { margin-top: -0.75rem; }
 .title:not(.is-spaced) + .subtitle { margin-top: -1.25rem; }
 .title.is-1 { font-size: 3rem; }
@@ -2474,7 +2475,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .hero.is-danger.is-bold { background-image: linear-gradient(141deg, #e30652 0%, #EE2E50 71%, #f54142 100%); }
 @media screen and (max-width: 768px) { .hero.is-danger.is-bold .navbar-menu { background-image: linear-gradient(141deg, #e30652 0%, #EE2E50 71%, #f54142 100%); } }
 .hero.is-small .hero-body { padding: 1.5rem; }
-@media screen and (min-width: 769px), print { .hero.is-medium .hero-body { padding: 9rem 1.5rem; } }
+@media screen and (min-width: 769px), print { .hero.is-medium .hero-body { padding: 7rem 1.5rem; } }
 @media screen and (min-width: 769px), print { .hero.is-large .hero-body { padding: 18rem 1.5rem; } }
 .hero.is-halfheight .hero-body, .hero.is-fullheight .hero-body, .hero.is-fullheight-with-navbar .hero-body { align-items: center; display: flex; }
 .hero.is-halfheight .hero-body > .container, .hero.is-fullheight .hero-body > .container, .hero.is-fullheight-with-navbar .hero-body > .container { flex-grow: 1; flex-shrink: 1; }
@@ -2499,6 +2500,8 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .dimmed { position: relative; }
 .dimmed:before { content: " "; z-index: 10; display: block; position: absolute; height: 100%; top: 0; left: 0; right: 0; background: -webkit-radial-gradient(top center, ellipse cover, rgba(0, 0, 0, 0.3) 66%, rgba(255, 255, 255, 0.1) 100%); }
 
+.baige-hero { background-color: #F6EDD9; }
+
 .section { padding: 3rem 1.5rem; }
 @media screen and (min-width: 1024px) { .section.is-small { padding: 2rem 1.5rem; }
   .section.is-medium { padding: 9rem 1.5rem; }
@@ -2507,7 +2510,10 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .subsection { padding-top: 2rem; }
 
-.footer { background-color: #E9E9DF; padding: 3rem 1.5rem; }
+.footer { background-color: #97AFB9; padding: 3rem 1.5rem 7rem; }
+.footer sup { top: 1px; }
+
+.footer-hero { background-image: url(/assets/images/heros/forest.svg); background-size: cover; background-position-y: 44%; background-position-x: center; }
 
 .modal { display: flex; visibility: hidden; }
 .modal .modal-background { transition: all 0.2s; opacity: 0; }

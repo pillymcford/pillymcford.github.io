@@ -1,6 +1,6 @@
 $hero-body-padding: 3rem 1.5rem !default;
 $hero-body-padding-small: 1.5rem !default;
-$hero-body-padding-medium: 9rem 1.5rem !default;
+$hero-body-padding-medium: 7rem 1.5rem !default;
 $hero-body-padding-large: 18rem 1.5rem !default;
 
 // Main container
@@ -15,6 +15,7 @@ $hero-body-padding-large: 18rem 1.5rem !default;
     background-position-y: bottom;
     background-position-x: center;
   }
+
   .navbar {
     background: none;
   }
@@ -252,4 +253,8 @@ $hero-body-padding-large: 18rem 1.5rem !default;
     right: 0;
     background: -webkit-radial-gradient(top center, ellipse cover, rgba(0, 0, 0, 0.3) 66%, rgba(255, 255, 255, 0.1) 100%);
   }
+}
+
+.baige-hero {
+  background-color: #F6EDD9;
 }

@@ -33,8 +33,6 @@ $subtitle-negative-margin: -1.25rem !default;
 
   sup {
     font-size: $title-sup-size;
-    position: relative;
-    top: 9px;
   }
 
   .tag {
@@ -57,7 +55,11 @@ $subtitle-negative-margin: -1.25rem !default;
     color: $title-strong-color;
     font-weight: $title-strong-weight;
   }
-
+  sup {
+    font-size: $title-sup-size;
+    position: relative;
+    top: 9px;
+  }
   & + .highlight {
     margin-top: -0.75rem;
   }

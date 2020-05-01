@@ -1,4 +1,4 @@
-<section class="section">
+<section class="section baige-hero">
   <div class="container has-text-centered">
     <div class="columns slider">
       {% for testimonial in site.data.testimonials %}
@@ -21,7 +21,9 @@
     arrowKeys: true,
     container: '.slider',
     items: 1,
-    autoplay: false,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
     mode: 'carousel',
     controls: false,
     navPosition: 'bottom',
