@@ -2510,7 +2510,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .subsection { padding-top: 2rem; }
 
-.footer { background-color: #97AFB9; padding: 3rem 1.5rem 7rem; }
+.footer { background-color: #F6EDD9; padding: 3rem 1.5rem 7rem; }
 .footer sup { top: 1px; }
 
 .footer-hero { background-image: url(/assets/images/heros/forest.svg); background-size: cover; background-position-y: 44%; background-position-x: center; }
