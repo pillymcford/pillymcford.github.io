@@ -1815,7 +1815,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .tns-controls [disabled] { color: #999999; background: #B3B3B3; cursor: not-allowed !important; }
 
-.tns-nav { text-align: center; padding-top: 1.36rem; position: relative; right: 12px; }
+.tns-nav { text-align: center; padding-top: 1.36rem; position: relative; right: 12px; z-index: 10; }
 
 .tns-nav > [aria-controls] { width: 23px; height: 23px; padding: 0; margin: 0 5px; border-radius: 50%; background: #A1AFA0; border: 0; }
 
