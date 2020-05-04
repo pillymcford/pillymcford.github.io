@@ -4,9 +4,11 @@
     <div class="modal-content modal-card">
         <header class="modal-card-head">
           <div class="" style="width: 90px;margin-right: 4rem;transform: scale(1.5) translateX(1rem) translateY(0.1rem);">
-            {% include logo.html %}
+            <a href="/services/">
+              {% include logo.html %}
+            </a>
           </div>
-            <p class="modal-card-title">{{ item.title }}</p>
+            <p class="modal-card-title"><span class="has-text-grey">Services:</span> {{ item.title }}</p>
             <button class="modal-button-close delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
