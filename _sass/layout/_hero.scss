@@ -15,7 +15,12 @@ $hero-body-padding-large: 18rem 1.5rem !default;
     background-position-y: bottom;
     background-position-x: center;
   }
-
+  &.contact {
+    background-image: url(/assets/images/services/asphalt.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+  }
   .navbar {
     background: none;
   }
