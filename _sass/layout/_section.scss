@@ -5,7 +5,9 @@ $section-padding-large: 18rem 1.5rem !default;
 
 .section {
   padding: $section-padding;
-
+  &.has-no-side-padding {
+    padding: 3rem 0;
+  }
   // Responsiveness
   @include desktop {
     // Sizes
@@ -18,9 +20,6 @@ $section-padding-large: 18rem 1.5rem !default;
 
     &.is-large {
       padding: $section-padding-large;
-    }
-    &.has-no-side-padding {
-      padding: 3rem 0;
     }
   }
 }
