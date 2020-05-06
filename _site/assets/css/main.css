@@ -2501,7 +2501,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .dimmed { position: relative; }
 .dimmed:before { content: " "; z-index: 10; display: block; position: absolute; height: 100%; top: 0; left: 0; right: 0; background: -webkit-radial-gradient(top center, ellipse cover, rgba(0, 0, 0, 0.3) 66%, rgba(255, 255, 255, 0.1) 100%); }
 
-.baige-hero { background-color: #F6EDD9; }
+.baige-hero { background-color: #F6EDD9; padding: 3rem 10.5rem; }
 
 .section { padding: 3rem 1.5rem; }
 .section.has-no-side-padding { padding: 3rem 0; }
