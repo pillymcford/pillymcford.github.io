@@ -8,7 +8,7 @@
               {% include logo.html %}
             </a>
           </div>
-            <p class="modal-card-title"><span class="has-text-grey">Services:</span> {{ item.title }}</p>
+            <p class="modal-card-title is-size-6-mobile"><span class="has-text-grey">Services:</span> {{ item.title }}</p>
             <button class="modal-button-close delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
@@ -31,7 +31,7 @@
 
          <a href="/contact-us/" class="button is-primary">Contact Us</a>
             {% if item.next %}
-              <p class="modal-button is-size-5 has-cursor" data-target="{{ item.next.title | remove: " " | remove: "&" }}"><span class="has-text-grey">Next Service: </span>{{ item.next.title }} &rarr;</p>
+              <p class="modal-button is-size-5 is-size-6-mobile has-cursor" data-target="{{ item.next.title | remove: " " | remove: "&" }}"><span class="has-text-grey">Next Service: </span>{{ item.next.title }} &rarr;</p>
               {% else %}
                 <button class="modal-button-close button">Close</button>
             {% endif %}
