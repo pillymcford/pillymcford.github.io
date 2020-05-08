@@ -2313,6 +2313,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .hero { align-items: stretch; display: flex; flex-direction: column; justify-content: space-between; }
 .hero.home { background-image: url(/assets/images/heros/home-hero.jpg); background-size: cover; background-position-y: bottom; background-position-x: center; }
 .hero.contact { background-image: url(/assets/images/services/cedar.jpg); background-size: cover; background-position-y: center; background-position-x: center; }
+.hero.about-us { background-image: url(/assets/images/about-us/skiing.jpg); background-size: cover; background-position-y: 5%; background-position-x: center; }
 .hero .navbar { background: none; }
 .hero .tabs ul { border-bottom: none; }
 .hero.is-white { background-color: white; color: #0a0a0a; }
