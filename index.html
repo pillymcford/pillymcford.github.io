@@ -4,15 +4,16 @@ title: "Home"
 description: "hello"
 show_request_modal_hero: true
 ---
-<section class="home hero is-medium dimmed has-z-index-1">
+{% for content in site.data.homepage_content %}
+<section class="home hero is-medium dimmed has-z-index-1" style="background-image: url({{ content.homepage_hero_background_image }});">
   <div class="hero-body">
     <div class="container has-text-centered has-z-index-10">
       <div class="column is-8 is-offset-2">
         <h1 class="title is-1 is-size-4-mobile is-spaced has-text-white-bis has-text-shadow">
-          Welcome to M<sup>c</sup>Lane Construction.
+          {{ content.homepage_hero_heading }}
         </h1>
         <h2 class="subtitle is-4 is-size-6-mobile has-text-white-bis has-text-shadow is-family-sans-serif">
-          M<sup>c</sup>Lane Construction is a family run roofing company that has been doing quality work in Bozeman since 2007. We pay close attention to detail and building science, and take pride in our craft and our team.
+              {{ content.homepage_hero_sub_heading }}
         </h2>
       </div>
     </div>
@@ -22,16 +23,17 @@ show_request_modal_hero: true
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column is-5 is-offset-1">
-        <h2 class="title is-spaced is-size-4-mobile">Why M<sup>c</sup>Lane</h2>
-        <p class="is-size-5 is-size-6-mobile">We are a locally owned and operated construction company servicing Bozeman, MT and surrounding areas.  We offer a wide verity of services from general contracting new construction and remodels, to fully in house jobs including roofing, siding, and concrete work.  M<sup>c</sup>Lane Construction is a licensed and insured construction company and has a current business license to work in Bozeman, Belgrade, Livingstone and West Yellowstone.</p>
+        <h2 class="title is-spaced is-size-4-mobile">{{ content.why_mclane_content_heading }}
+        <p class="is-size-5 is-size-6-mobile">{{ content.why_mclane_content }}</p>
         <section class="subsection">
-          <a href="/why-mclane/" class="button is-primary">Learn More</a>
+          <a href="/why-mclane/" class="button is-primary">{{ content.why_mclane_content_button_text }}</a>
         </section>
       </div>
-      <div class="column is-5 is-offset-1"><img src="assets/images/home/roof-detail-home.jpg" alt=""></div>
+      <div class="column is-5 is-offset-1"><img src="{{ content.why_mclane_content_image }}" alt="{{ content.why_mclane_content_heading }}"></div>
     </div>
   </div>
 </section>
+{% endfor %}
 <!-- Jarallax -->
 <!-- <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
 
