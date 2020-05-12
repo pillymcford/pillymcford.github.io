@@ -2,6 +2,32 @@
 layout: default
 title: "Why McLane Construction"
 description: "hello"
+hero_background_image: /assets/images/heros/forest.svg
+hero_heading: Why M<sup>c</sup>Lane Construction?
+intro_text: We are a locally owned and operated construction company servicing Bozeman, MT and surrounding areas.  We offer a wide verity of services from general contracting new construction and remodels, to fully in house jobs including roofing, siding, and concrete work.  M<sup>c</sup>Lane Construction is a licensed and insured construction company and has a current business license to work in Bozeman, Belgrade, Livingstone and West Yellowstone.
 ---
+<section class="contact hero is-medium dimmed has-z-index-1" style="background-image: url({{ page.hero_background_image }});">
+  <div class="hero-body">
+    <div class="container has-text-centered has-z-index-10">
+      <div class="column is-8 is-offset-2">
+        <h1 class="title is-1 is-size-4-mobile is-spaced has-text-white-bis has-text-shadow">
+          {{ page.hero_heading }}
+        </h1>
+        <!-- <h2 class="subtitle is-4 is-size-6-mobile has-text-white-bis has-text-shadow is-family-sans-serif">
+          We are here to help on your next project.
+        </h2> -->
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-6 is-offset-3">
+        <p class="is-size-5 is-size-6-mobile">{{ page.intro_text }}</p>
+      </div>
+    </div>
+  </div>
+</section>
 {% include values.html %}
 {% include values-modal.html %}
