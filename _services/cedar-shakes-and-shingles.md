@@ -7,7 +7,6 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
   nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
   officia deserunt mollit anim id est laborum.
 images:
-- image: "/assets/images/values/our-team.jpg"
 - image: "/assets/images/services/cedar.jpg"
 - image: http://placekitten.com/1280/960
 - image: http://placekitten.com/1280/960
