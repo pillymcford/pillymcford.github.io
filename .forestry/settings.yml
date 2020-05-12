@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/homepage_content.yaml
   label: Homepage Content
-  match: "**/*"
 - type: document
   path: _data/testimonials.yaml
   label: Testimonials
