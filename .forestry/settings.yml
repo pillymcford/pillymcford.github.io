@@ -1,12 +1,9 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
-- type: document
-  path: _data/homepage_content.yaml
-  label: Homepage Content
 - type: document
   path: _data/testimonials.yaml
   label: Testimonials
