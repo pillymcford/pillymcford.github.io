@@ -1,9 +1,0 @@
----
-label: Homepage
-hide_body: true
-fields:
-- name: homepage_hero_heading
-  type: text
-  config:
-    required: false
-  label: Homepage Hero Heading
