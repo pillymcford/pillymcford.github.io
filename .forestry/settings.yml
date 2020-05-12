@@ -5,9 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/homepage_content.yaml
+  label: Homepage Content
+  match: "**/*"
+- type: document
   path: _data/testimonials.yaml
   label: Testimonials
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
