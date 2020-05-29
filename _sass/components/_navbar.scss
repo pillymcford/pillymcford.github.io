@@ -7,10 +7,10 @@ $navbar-padding-horizontal: 2rem !default;
 $navbar-z: 30 !default;
 $navbar-fixed-z: 30 !default;
 
-$navbar-item-color: #fff !default;
-$navbar-item-hover-color: #fff !default;
+$navbar-item-color: #3E4A3D!default;
+$navbar-item-hover-color: #3E4A3D !default;
 $navbar-item-hover-background-color: darken($green, 5%) !default;
-$navbar-item-active-color: #fff;
+$navbar-item-active-color: #3E4A3D;
 $navbar-item-active-background-color: darken($green, 5%) !default;
 $navbar-item-img-max-height: 1.75rem !default;
 
@@ -61,7 +61,7 @@ $navbar-breakpoint: $desktop !default;
   z-index: $navbar-z;
   &:before {
     content: '';
-    background-color: #fff;
+    background-color: #3E4A3D;
     position: fixed;
     width: 100vw;
     height: 72px;
@@ -679,10 +679,10 @@ a.navbar-item,
   top: -81px;
   &:after {
     content: 'Crafted Eave to Peak';
-    color: #fff;
+    color: #3E4A3D;
     display: block;
     text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    // text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     font-style: italic;
     position: relative;
     top: -6px;

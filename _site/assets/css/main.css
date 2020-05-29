@@ -1449,7 +1449,7 @@ a.list-item { background-color: whitesmoke; cursor: pointer; }
 .modal-card-body { -webkit-overflow-scrolling: touch; background-color: white; flex-grow: 1; flex-shrink: 1; overflow: auto; padding: 20px; }
 
 .navbar { background-color: #28903A; margin-top: 72px; max-height: 40px; position: relative; z-index: 30; }
-.navbar:before { content: ''; background-color: #fff; position: fixed; width: 100vw; height: 72px; top: 0; }
+.navbar:before { content: ''; background-color: #3E4A3D; position: fixed; width: 100vw; height: 72px; top: 0; }
 @media screen and (max-width: 1023px) { .navbar:before { display: none; } }
 @media screen and (max-width: 1023px) { .navbar { margin-top: 0; max-height: none; } }
 .navbar.is-white { background-color: white; color: #0a0a0a; }
@@ -1569,7 +1569,7 @@ html.has-navbar-fixed-bottom, body.has-navbar-fixed-bottom { padding-bottom: 4.3
 
 .navbar-tabs { -webkit-overflow-scrolling: touch; max-width: 100vw; overflow-x: auto; overflow-y: hidden; }
 
-.navbar-burger { color: #fff; cursor: pointer; display: block; height: 4.35rem; position: relative; width: 4.35rem; margin-left: auto; }
+.navbar-burger { color: #3E4A3D; cursor: pointer; display: block; height: 4.35rem; position: relative; width: 4.35rem; margin-left: auto; }
 .navbar-burger span { background-color: currentColor; display: block; height: 1px; left: calc(50% - 8px); position: absolute; transform-origin: center; transition-duration: 86ms; transition-property: background-color, opacity, transform; transition-timing-function: ease-out; width: 16px; }
 .navbar-burger span:nth-child(1) { top: calc(50% - 6px); }
 .navbar-burger span:nth-child(2) { top: calc(50% - 1px); }
@@ -1581,11 +1581,11 @@ html.has-navbar-fixed-bottom, body.has-navbar-fixed-bottom { padding-bottom: 4.3
 
 .navbar-menu { display: none; }
 
-.navbar-item, .navbar-link { color: #fff; display: block; line-height: 1.5; padding: 0.5rem 0.75rem; position: relative; }
+.navbar-item, .navbar-link { color: #3E4A3D; display: block; line-height: 1.5; padding: 0.5rem 0.75rem; position: relative; }
 .navbar-item .icon:only-child, .navbar-link .icon:only-child { margin-left: -0.25rem; margin-right: -0.25rem; }
 
 a.navbar-item, .navbar-link { cursor: pointer; }
-a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active { background-color: #227c32; color: #fff; }
+a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active { background-color: #227c32; color: #3E4A3D; }
 
 .navbar-item { flex-grow: 0; flex-shrink: 0; }
 .navbar-item img { max-height: 1.75rem; }
@@ -1656,11 +1656,11 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   html.has-navbar-fixed-bottom-desktop, body.has-navbar-fixed-bottom-desktop { padding-bottom: 4.35rem; }
   html.has-spaced-navbar-fixed-top, body.has-spaced-navbar-fixed-top { padding-top: 6.35rem; }
   html.has-spaced-navbar-fixed-bottom, body.has-spaced-navbar-fixed-bottom { padding-bottom: 6.35rem; }
-  a.navbar-item.is-active, .navbar-link.is-active { color: #fff; }
+  a.navbar-item.is-active, .navbar-link.is-active { color: #3E4A3D; }
   a.navbar-item.is-active:not(:focus):not(:hover), .navbar-link.is-active:not(:focus):not(:hover) { background-color: #227c32; }
   .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link, .navbar-item.has-dropdown.is-active .navbar-link { background-color: #227c32; } }
 .logo { width: 250px; position: relative; top: -81px; }
-.logo:after { content: 'Crafted Eave to Peak'; color: #fff; display: block; text-align: center; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); font-style: italic; position: relative; top: -6px; letter-spacing: 2.2px; font-size: .9rem; }
+.logo:after { content: 'Crafted Eave to Peak'; color: #3E4A3D; display: block; text-align: center; font-style: italic; position: relative; top: -6px; letter-spacing: 2.2px; font-size: .9rem; }
 @media screen and (max-width: 1023px) { .logo:after { position: absolute; top: 21px; letter-spacing: 1.6px; font-size: 0.35rem; right: -95px; } }
 @media screen and (max-width: 1023px) { .logo { width: 110px; transform: scale(1.5) translateY(3px); position: static; } }
 
