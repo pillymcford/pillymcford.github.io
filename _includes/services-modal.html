@@ -1,5 +1,5 @@
 {% for item in site.services %}
-<div id="{{ item.title | remove: " " | remove: "&" }}" class="modal modal-full-screen">
+<div id="{{ item.title | remove: " " | remove: "&" }}" class="modal">
     <div class="modal-background"></div>
     <div class="modal-content modal-card">
         <header class="modal-card-head">
@@ -13,16 +13,14 @@
         </header>
         <section class="modal-card-body">
           <div class="columns">
-              <div class="column is-6">
-                <div class="columns is-multiline is-mobile">
+              <div class="column is-5">
+
                   {% for imageitem in item.images %}
-                  <div class="column is-6">
+
                     <img src="{{ imageitem.image }}" alt="{{ item.title }}" />
-                  </div>
                     {% endfor %}
-                </div>
               </div>
-            <div class="column is-6">
+            <div class="column is-7">
             {{ item.content | markdownify }}
           </div>
         </div>
