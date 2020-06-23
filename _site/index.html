@@ -96,21 +96,43 @@
   </h2>
 </div>
 </section>
-<section class="home hero is-medium dimmed has-z-index-1" style="background-image: url(/assets/images/heros/home-hero.jpg);">
-  <div class="hero-body">
-    <div class="container has-text-centered has-z-index-10">
-      <div class="column is-8 is-offset-2">
-
-        <!-- <h1 class="title is-1 is-size-4-mobile is-spaced has-text-white-bis has-text-shadow">
-          Welcome to M<sup>c</sup>Lane Construction.
-        </h1>
-        <h2 class="subtitle is-4 is-size-6-mobile has-text-white-bis has-text-shadow is-family-sans-serif">
-              M<sup>c</sup>Lane Construction is a family run roofing company that has been doing quality work in Bozeman since 2007. We pay close attention to detail and building science, and take pride in our craft and our team.
-        </h2> -->
+<section>
+  <div class="image-gallery container">
+    <div class="columns image-slider">
+      
+      <div class="column">
+        <img class="image is-fullwidth" src="/assets/images/heros/why-mclane.jpg" />
       </div>
+      
+      <div class="column">
+        <img class="image is-fullwidth" src="assets/images/heros/contact-us.jpg" />
+      </div>
+      
+      <div class="column">
+        <img class="image is-fullwidth" src="/assets/images/heros/roofing-plan.jpg" />
+      </div>
+      
     </div>
   </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script>
+  var slider = tns({
+    arrowKeys: true,
+    container: '.image-slider',
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: false,
+    mode: 'gallery',
+    controls: false,
+    // navPosition: 'bottom',
+    nav: false,
+    autoplayButtonOutput: false,
+    speed: 1000
+  });
+</script>
+
 <section class="section">
   <div class="container">
     <div class="columns is-vcentered">
@@ -142,7 +164,7 @@
   </div>
 </section>
 
-  <section class="baige-hero">
+  <section class="green-hero">
   <div class="container has-text-centered">
     <div class="columns slider">
       

@@ -18,6 +18,15 @@ $container-offset: 2 * $gap !default;
     margin: 0 auto;
   }
 
+  &.image-gallery {
+    width: 78%;
+    max-width: 1344px;
+    margin: 0 auto;
+    @media (max-width: $tablet) {
+      width: 100%;
+    }
+  }
+
   @include desktop {
     max-width: $desktop - $container-offset;
   }

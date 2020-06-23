@@ -1,0 +1,28 @@
+<section>
+  <div class="image-gallery container">
+    <div class="columns image-slider">
+      {% for image in site.data.homepage_image_slider %}
+      <div class="column">
+        <img class="image is-fullwidth" src="{{ image.source }}" />
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<script>
+  var slider = tns({
+    arrowKeys: true,
+    container: '.image-slider',
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 4000,
+    autoplayHoverPause: false,
+    mode: 'gallery',
+    controls: false,
+    // navPosition: 'bottom',
+    nav: false,
+    autoplayButtonOutput: false,
+    speed: 1000
+  });
+</script>
