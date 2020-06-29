@@ -1823,7 +1823,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .tns-nav > [aria-controls] { width: 23px; height: 23px; padding: 0; margin: 0 5px; border-radius: 50%; background: #A1AFA0; border: 0; }
 
-.tns-nav > .tns-nav-active { background: #F6EDD9; }
+.tns-nav > .tns-nav-active { background: #28903b; }
 
 .tns-controls [aria-controls] { font-size: 15px; margin: 0 5px; padding: 0 1em; height: 2.5em; color: #3b2628; background: #aae5e4; border-radius: 3px; border: 1px solid #d3c3bf; }
 
