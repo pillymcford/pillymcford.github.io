@@ -9,7 +9,10 @@ $footer-padding: 3rem 1.5rem 7rem !default;
   @if $footer-color {
     color: $footer-color;
   }
-
+  a,p {
+    font-weight: 600;
+    color: $footer-color;
+  }
   sup {
     top: 1px;
   }
