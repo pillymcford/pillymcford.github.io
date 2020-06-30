@@ -89,7 +89,7 @@ $modal-card-body-padding: 20px !default;
 .modal-card-head,
 .modal-card-foot {
   align-items: center;
-  background-color: $modal-card-head-background-color;
+  background-color: #effeed;
   display: flex;
   flex-shrink: 0;
   justify-content: flex-start;
@@ -129,7 +129,7 @@ $modal-card-body-padding: 20px !default;
 .modal-card-body {
   @include overflow-touch;
 
-  background-color: $modal-card-body-background-color;
+  background-color: #effeed;
   flex-grow: 1;
   flex-shrink: 1;
   overflow: auto;
