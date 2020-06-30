@@ -8,5 +8,20 @@ images:
   - image: http://placekitten.com/1280/960
 ---
 <h3 class="title">{{ page.title }}</h3>
+<div class="content">
+  <p>Metal panels come in all shapes and sizes: corrugated, single or double lock standing seam, mechanical or snap lock standing seam, screw-down panels, different gauges, and all sorts of colors.  We work with several local suppliers that manufacture panels and custom trim.</p>
 
-Bridger Steel is the main metal supplier in the Bozeman area. Their website outlines your options in detail and we are versed in installing all of their products.
+  <p><strong>Pros:</strong> A metal roof can last forever.  If installed correctly, a double seamed mechanically locked metal roof is as good as it gets, and can be effective down to a ¼:12 pitch.  They are less penetrable to leaks caused by pooling water, such as from ice dams, and are tough.</p>
+
+  <p><strong>Cons:</strong> A metal roof can be very expensive.  As the gauge of metal goes up, so does price.  Add in extra for mechanically locked double seams.  Then there are the snowbreaks, a vital component over any trafficked area.  The tally can get daunting, and depending on your roof construction, some of these line items are not optional.</p>
+
+  <p><strong>The Craft:</strong>  Each step, from planning to install, makes our metal roofs a work of art that stand the test of time:</p>
+
+  <ol>
+  <li>A careful layout plan for panels and trim.  Each piece is ordered to fit, and has a home.</li>
+  <li>The right tools for the job, from hand seamers and welting irons, to a power seamer and a snap table.</li>
+  <li>No pinch points</li>
+  <li>Crisp, clean details.  Our guys do origami with metal.  High and tight, every time.</li>
+  <li>Trim/flashing</li>
+  </ol>
+</div>
