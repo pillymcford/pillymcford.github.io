@@ -13,17 +13,17 @@
         </header>
         <section class="modal-card-body">
           <div class="columns">
-              <div class="column is-6">
-                <div class="columns is-multiline is-mobile">
-                  {% for imageitem in item.images %}
-                  <div class="column is-6">
-                    <img src="{{ imageitem.image }}" alt="{{ item.title }}" />
-                  </div>
-                    {% endfor %}
-                </div>
-              </div>
             <div class="column is-6">
             {{ item.content | markdownify }}
+          </div>
+          <div class="column is-6">
+            <div class="columns is-multiline is-mobile">
+              {% for imageitem in item.images %}
+              <div class="column is-6">
+                <img src="{{ imageitem.image }}" alt="{{ item.title }}" />
+              </div>
+                {% endfor %}
+            </div>
           </div>
         </div>
         </section>
