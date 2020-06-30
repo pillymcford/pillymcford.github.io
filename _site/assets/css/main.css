@@ -2318,6 +2318,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .hero.home { background-size: cover; background-position-y: bottom; background-position-x: center; }
 .hero.contact { background-image: url(/assets/images/services/cedar.jpg); background-size: cover; background-position-y: center; background-position-x: center; }
 .hero.services { background-image: url(/assets/images/services/services-hero.jpg); background-size: cover; background-position-y: center; background-position-x: center; }
+.hero.why-mclane { background-image: url(/assets/images/values/why-mclane-hero.jpg); background-size: cover; background-position-y: 30%; background-position-x: center; }
 .hero.about-us { background-image: url(/assets/images/about-us/skiing.jpg); background-size: cover; background-position-y: 5%; background-position-x: center; }
 .hero .navbar { background: none; }
 .hero .tabs ul { border-bottom: none; }
