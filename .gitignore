@@ -16,5 +16,3 @@ node_modules
 .bundle/
 bundler_gems/
 *.cache
-_site/assets/css/main.css
-_sass/layout/_hero.scss

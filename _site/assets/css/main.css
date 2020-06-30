@@ -2317,6 +2317,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .hero { align-items: stretch; display: flex; flex-direction: column; justify-content: space-between; }
 .hero.home { background-size: cover; background-position-y: bottom; background-position-x: center; }
 .hero.contact { background-image: url(/assets/images/services/cedar.jpg); background-size: cover; background-position-y: center; background-position-x: center; }
+.hero.services { background-image: url(/assets/images/services/services-hero.jpg); background-size: cover; background-position-y: center; background-position-x: center; }
 .hero.about-us { background-image: url(/assets/images/about-us/skiing.jpg); background-size: cover; background-position-y: 5%; background-position-x: center; }
 .hero .navbar { background: none; }
 .hero .tabs ul { border-bottom: none; }
@@ -2521,7 +2522,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .subsection { padding-top: 2rem; }
 
-.footer { background-color: #F6EDD9; padding: 3rem 1.5rem 7rem; }
+.footer { background-color: #effeed; padding: 3rem 1.5rem 7rem; color: #769A75; }
 .footer sup { top: 1px; }
 
 .mountains { position: absolute; right: 0; width: 100%; top: -198px; opacity: 0.2; }
