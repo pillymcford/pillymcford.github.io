@@ -19,16 +19,9 @@ $container-offset: 2 * $gap !default;
   }
 
   &.image-gallery {
-    width: 80%;
-    max-width: 1344px;
-    // margin-top: -70px;
     img {
       -webkit-box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
       box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
-    }
-    @media (max-width: $desktop) {
-      width: 100%;
-      margin-top: 0;
     }
   }
 

@@ -1,7 +1,7 @@
 $navbar-background-color: #427f32 !default;
 $navbar-box-shadow-size: 0 2px 0 0 !default;
 $navbar-box-shadow-color: $background !default;
-$navbar-height: 7.35rem !default;
+$navbar-height: 4.85rem !default;
 $navbar-padding-vertical: 1rem !default;
 $navbar-padding-horizontal: 2rem !default;
 $navbar-z: 30 !default;
@@ -161,8 +161,8 @@ $navbar-breakpoint: $desktop !default;
   }
 
   &.has-shadow {
-    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-    border-bottom: 6px solid #248434;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
   }
 
   &.is-fixed-bottom,
@@ -186,7 +186,7 @@ $navbar-breakpoint: $desktop !default;
 html,
 body {
   &.has-navbar-fixed-top {
-    padding-top: 11.9rem;
+    padding-top: 9.4rem;
     @media screen and (max-width: 1023px) {
       padding-top: $navbar-height;
     }
@@ -674,28 +674,9 @@ a.navbar-item,
 }
 
 .logo {
-  width: 325px;
+  width: 330px;
   position: relative;
-  top: -81px;
-  &:after {
-    content: 'Crafted Eave to Peak';
-    color: #EEFEED;
-    display: block;
-    text-align: center;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    font-style: italic;
-    position: relative;
-    top: -6px;
-    letter-spacing: 2.2px;
-    font-size: 1.3rem;
-    @media screen and (max-width: 1023px) {
-      position: absolute;
-      top: 21px;
-      letter-spacing: 1.6px;
-      font-size: 0.35rem;
-      right: -95px;
-    }
-  }
+  top: -83px;
   @media screen and (max-width: 1023px) {
     width: 110px;
     transform: scale(1.5) translateY(3px);

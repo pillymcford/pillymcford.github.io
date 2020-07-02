@@ -1,13 +1,10 @@
 <section class="section is-small">
   <div class="image-gallery container">
-    <!-- <h2 class="title title is-spaced is-size-4-mobile has-text-white">Our Work</h2> -->
+  <!-- <h2 class="title is-3 is-size-4-mobile has-text-white has-text-centered is-family-sans-serif"><em>Crafted Eve to Peak.</em></h2> -->
     <div class="image-slider">
       {% for image in site.data.homepage_image_slider %}
       <div class="slide">
         <img class="image is-fullwidth" src="{{ image.source }}" />
-        <section class="subsection">
-            <p class="is-italic has-text-white">{{ image.text }}</p>
-        </section>
       </div>
       {% endfor %}
     </div>
@@ -25,6 +22,7 @@
     mode: 'gallery',
     controls: false,
     navPosition: 'bottom',
+    speed: 500,
     nav: true,
     autoplayButtonOutput: false
   });

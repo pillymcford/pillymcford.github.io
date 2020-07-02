@@ -1,5 +1,5 @@
 $footer-background-color: #effeed !default;
-$footer-color: #769A75;
+$footer-color: #427f32;
 $footer-padding: 3rem 1.5rem 7rem !default;
 
 .footer {
@@ -10,25 +10,9 @@ $footer-padding: 3rem 1.5rem 7rem !default;
     color: $footer-color;
   }
   a,p {
-    font-weight: 600;
     color: $footer-color;
   }
   sup {
     top: 1px;
   }
 }
-.mountains {
-  position: absolute;
-  right: 0;
-  width: 100%;
-  top: -198px;
-  opacity: 0.2;
-  @media (min-width: 1800px) {
-    right: 7%;
-    width: 85%;
-  }
-  @media (min-width: 1900px) {
-    right: 21%;
-    width: 55%;
-  }
- }
