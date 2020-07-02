@@ -771,7 +771,12 @@ $column-gap: 0.75rem !default;
   &.is-centered {
     justify-content: center;
   }
-
+  &.is-mobile-reversed {
+    @media (max-width: $tablet) {
+      flex-direction: column-reverse;
+      display: flex;  
+    }
+  }
   &.is-gapless {
     margin-left: 0;
     margin-right: 0;
