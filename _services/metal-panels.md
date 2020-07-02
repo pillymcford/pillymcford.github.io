@@ -5,7 +5,6 @@ images:
   - image: /assets/images/services/metal-panels.jpg
   - image: /assets/images/services/metal-panels2.jpg
   - image: /assets/images/services/metal-panels3.jpg
-  - image: http://placekitten.com/1280/960
 ---
 <h3 class="title">{{ page.title }}</h3>
 <div class="content">
