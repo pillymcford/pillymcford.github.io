@@ -1444,7 +1444,7 @@ a.list-item { background-color: whitesmoke; cursor: pointer; }
 .modal-content, .modal-card { margin: 0 0; max-height: calc(100vh - 160px); overflow: auto; position: relative; width: 100%; }
 @media screen and (min-width: 769px), print { .modal-content, .modal-card { margin: 0 auto; max-height: calc(100vh - 40px); width: 960px; } }
 
-.modal-close { max-width: none; max-height: none; background-color: #769A75; height: 60px; position: fixed; right: 20px; top: 20px; width: 60px; }
+.modal-close { max-width: none; max-height: none; background-color: #769A75; height: 40px; position: fixed; right: 20px; top: 20px; width: 40px; }
 .modal-close:hover, .modal-close:focus { background-color: #427f32; }
 
 .modal-card { display: flex; flex-direction: column; max-height: calc(100vh - 40px); overflow: hidden; -ms-overflow-y: visible; }
