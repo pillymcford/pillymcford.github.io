@@ -1456,7 +1456,7 @@ a.list-item { background-color: whitesmoke; cursor: pointer; }
 .modal-card-foot { border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; border-top: 1px solid rgba(129, 126, 91, 0.4); }
 .modal-card-foot .button:not(:last-child) { margin-right: 0.5em; }
 
-.modal-card-body { -webkit-overflow-scrolling: touch; background-color: #effeed; flex-grow: 1; flex-shrink: 1; overflow: auto; padding: 0px; }
+.modal-card-body { -webkit-overflow-scrolling: touch; background-color: #effeed; flex-grow: 1; flex-shrink: 1; overflow-x: hidden; padding: 0px; }
 
 .navbar { background-color: #427f32; margin-top: 72px; max-height: 40px; position: relative; z-index: 30; }
 .navbar:before { content: ''; background-color: #EEFEED; position: fixed; width: 100vw; height: 72px; top: 0; }
