@@ -1783,6 +1783,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .tns-slider { -webkit-transition: all 0s; -moz-transition: all 0s; transition: all 0s; }
 .tns-slider > .tns-item { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.tns-slider > .tns-item img { object-fit: cover; width: 100%; height: 460px; }
 
 .tns-horizontal.tns-subpixel { white-space: nowrap; }
 .tns-horizontal.tns-subpixel > .tns-item { display: inline-block; vertical-align: top; white-space: normal; padding-bottom: 16px; }
