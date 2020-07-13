@@ -7,6 +7,6 @@ images:
   - image: http://placekitten.com/1280/960
   - image: http://placekitten.com/1280/960
 ---
-<h3 class="title">{{ page.title }}</h3>
-
+<div class="content">
 At McLane Construction, we are not just roofers and siders, we are craftsmen.  Our skills have been honed by experience.  We fix hundreds of leaky roofs and siding every year, and we know what to do and not to do.  We are sticklers about following local building codes and manufacturers instructions, and then going above and beyond.  And we take pride in creating something of quality in both form and function.
+</div>

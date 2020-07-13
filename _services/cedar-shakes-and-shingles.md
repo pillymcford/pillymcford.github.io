@@ -13,6 +13,6 @@ images:
 - image: http://placekitten.com/1280/960
 
 ---
-<h3 class="title">{{ page.title }}</h3>
-
+<div class="content">
 We buy all of our cedar shingles through Kenyon Noble or Simkins and Hallin.
+</div>

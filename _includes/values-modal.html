@@ -1,25 +1,32 @@
 {% for item in site.values %}
 <div id="{{ item.title | remove: " " | remove: "&" }}" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-content modal-card">
-        <section class="modal-card-body">
-          <button class="modal-button-close delete is-pulled-right" aria-label="close"></button>
-          <div class="columns">
-            <div class="column is-6">
-            {{ item.content | markdownify }}
-          </div>
-          <div class="column is-6">
-            <div class="columns is-multiline is-mobile">
-              {% for imageitem in item.images %}
-              <div class="column is-6">
-                <img src="{{ imageitem.image }}" alt="{{ item.title }}" />
-              </div>
-                {% endfor %}
-            </div>
-          </div>
+  <div class="modal-background"></div>
+  <div class="modal-content modal-card">
+    <section class="modal-card-body">
+      <button class="modal-button-close delete modal-close" aria-label="close"></button>
+      {% for imageitem in item.images limit:1 %}
+      <div class="modal-hero" style="background-image: url({{ imageitem.image }});">
+        <h2 class="title  is-centered has-text-white">{{ item.title }}</h2>
+      </div>
+      {% endfor %}
+      <div class="modal-content-wrap">
+      <div class="columns">
+        <div class="column is-5">
+
+          {% for imageitem in item.images offset: 1 %}
+
+          <img src="{{ imageitem.image }}" alt="{{ item.title }}" />
+          {% endfor %}
         </div>
-        </section>
+        <div class="column is-7">
+          <div class="modal-copy">
+          {{ item.content | markdownify }}
+        </div>
+        </div>
+      </div>
     </div>
+    </section>
+  </div>
 </div>
 {% endfor %}
 <script src="/assets/javascripts/modal-fx.js">
