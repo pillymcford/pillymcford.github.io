@@ -3,14 +3,14 @@
   <div class="modal-background"></div>
   <div class="modal-content modal-card">
     <section class="modal-card-body">
-      <button class="modal-button-close delete modal-close" aria-label="close"></button>
+      <button class="modal-button-close modal-close" aria-label="close"></button>
       {% for imageitem in item.images limit:1 %}
       <div class="modal-hero" style="background-image: url({{ imageitem.image }});">
         <h2 class="title  is-centered has-text-white">{{ item.title }}</h2>
       </div>
       {% endfor %}
       <div class="modal-content-wrap">
-      <div class="columns">
+      <div class="columns is-mobile-reversed">
         <div class="column is-5">
 
           {% for imageitem in item.images offset:1 %}
