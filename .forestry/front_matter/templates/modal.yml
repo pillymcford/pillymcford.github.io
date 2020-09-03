@@ -1,0 +1,16 @@
+---
+label: Modal
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: modal_hero_image
+  label: modal_hero_image
+- type: list
+  name: modal_images
+  label: modal_images
