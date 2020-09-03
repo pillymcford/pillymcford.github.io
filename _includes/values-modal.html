@@ -4,18 +4,15 @@
   <div class="modal-content modal-card">
     <section class="modal-card-body">
       <button class="modal-button-close delete modal-close" aria-label="close"></button>
-      {% for imageitem in item.images limit:1 %}
-      <div class="modal-hero" style="background-image: url({{ imageitem.image }});">
+      <div class="modal-hero" style="background-image: url({{ item.modal-hero-image }});">
         <h2 class="title  is-centered has-text-white">{{ item.title }}</h2>
       </div>
-      {% endfor %}
       <div class="modal-content-wrap">
       <div class="columns is-mobile-reversed">
         <div class="column is-5">
 
-          {% for imageitem in item.images offset: 1 %}
-
-          <img src="{{ imageitem.image }}" alt="{{ item.title }}" />
+          {% for imageitem in item.modal-images %}
+            <img src="{{ imageitem.image }}" alt="{{ item.title }}" />
           {% endfor %}
         </div>
         <div class="column is-7">

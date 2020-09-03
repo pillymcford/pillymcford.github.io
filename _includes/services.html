@@ -5,11 +5,9 @@
       <div class="column is-4">
         <div class="card services modal-button has-cursor" data-target="{{ item.title | remove: " " | remove: "&" }}">
           <div class="card-image">
-            {% for imageitem in item.images | limit: 1 %}
             <figure class="image is-4by3">
-              <img src="{{ imageitem.image }}" alt="{{ item.title }}">
+              <img src="{{ item.modal-hero-image }}" alt="{{ item.title }}">
             </figure>
-            {% endfor %}
           </div>
           <div class="card-content">
             <div class="content">
