@@ -1,8 +1,14 @@
 ---
-title: "Metal Panels"
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-modal_hero_image: /assets/images/services/metal-panels-hero.JPG"
-modal_images: []
+title: Metal Panels
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+  officia deserunt mollit anim id est laborum.
+modal_hero_image: "/assets/images/heros/home-hero3.jpg"
+modal_images:
+- "/assets/images/services/metal-panels-hero.JPG"
 
 ---
 Metal panels come in all shapes and sizes: corrugated, single or double lock standing seam, mechanical or snap lock standing seam, screw-down panels, different gauges, and all sorts of colors.  We work with several local suppliers that manufacture panels and custom trim.
