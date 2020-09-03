@@ -7,7 +7,8 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
   nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
   officia deserunt mollit anim id est laborum.
 modal_hero_image: "/assets/images/services/asphalt-hero.JPG"
-modal_images: []
+modal_images:
+- "/assets/images/heros/home-hero5.jpg"
 
 ---
 We work with Malarkey and Certainteed shingles most often.  In Montana, the style is almost always “Architectural”, but there are many colors to choose from.
