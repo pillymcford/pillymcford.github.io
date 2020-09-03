@@ -44,9 +44,11 @@ fields:
 - type: textarea
   name: services_content
   label: services_content
-- type: text
-  name: services_content_image
-  label: services_content_image
+- name: service_content_image
+  type: file
+  config:
+    maxSize: 64
+  label: Service Content Image
 - type: text
   name: services_content_button_text
   label: services_content_button_text
