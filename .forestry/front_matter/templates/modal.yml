@@ -12,6 +12,7 @@ fields:
   name: images
   label: images
   fields:
-  - type: file
-    name: image
-    label: image
+  - name: images
+    type: image_gallery
+    config: {}
+    label: Images
