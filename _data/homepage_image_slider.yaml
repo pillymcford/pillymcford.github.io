@@ -1,1 +1,7 @@
-images: []
+---
+images:
+- "/assets/images/heros/home-hero3.jpg"
+- "/assets/images/heros/home-hero2.jpg"
+- "/assets/images/heros/home-hero4.jpg"
+- "/assets/images/heros/home-hero.jpg"
+- "/assets/images/heros/home-hero5.jpg"
