@@ -2,9 +2,9 @@
   <div class="image-gallery container">
   <!-- <h2 class="title is-3 is-size-4-mobile has-text-white has-text-centered is-family-sans-serif"><em>Crafted Eve to Peak.</em></h2> -->
     <div class="image-slider">
-      {% for image in site.data.homepage_image_slider %}
+      {% for image in site.data.homepage_image_slider.images %}
       <div class="slide">
-        <img class="image is-fullwidth" src="{{ images }}" />
+        <img class="image is-fullwidth" src="{{ image }}" />
       </div>
       {% endfor %}
     </div>
