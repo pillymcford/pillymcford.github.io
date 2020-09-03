@@ -1825,7 +1825,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .tns-outer { position: relative; }
 
-.tns-inner { color: #E9F8DA; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
+.tns-inner { color: #093c0f; }
 .tns-inner .title, .tns-inner .subtitle { color: #E9F8DA; }
 
 .tns-controls [disabled] { color: #999999; background: #B3B3B3; cursor: not-allowed !important; }
