@@ -942,7 +942,7 @@ a.tag:hover { text-decoration: underline; }
 .title sup, .subtitle sup { font-size: 0.75em; }
 .title .tag, .subtitle .tag { vertical-align: middle; }
 
-.title { color: #093C0E; text-transform: uppercase; font-size: 2rem; font-weight: 500; line-height: 1.125; }
+.title { color: #093c0f; text-transform: uppercase; font-size: 2rem; font-weight: 500; line-height: 1.125; }
 .title strong { color: inherit; font-weight: inherit; }
 .title sup { font-size: 0.75em; position: relative; top: 9px; }
 .title + .highlight { margin-top: -0.75rem; }
@@ -1826,7 +1826,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .tns-outer { position: relative; }
 
 .tns-inner { color: #093c0f; }
-.tns-inner .title, .tns-inner .subtitle { color: #E9F8DA; }
+.tns-inner .title, .tns-inner .subtitle { color: #093c0f; }
 
 .tns-controls [disabled] { color: #999999; background: #B3B3B3; cursor: not-allowed !important; }
 
