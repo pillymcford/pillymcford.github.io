@@ -1,0 +1,52 @@
+---
+label: Pages
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: homepage_hero_heading
+  label: homepage_hero_heading
+- type: textarea
+  name: homepage_hero_sub_heading
+  label: homepage_hero_sub_heading
+- type: file
+  name: homepage_hero_background_image
+  label: homepage_hero_background_image
+- type: text
+  name: why_mclane_content_heading
+  label: why_mclane_content_heading
+- type: text
+  name: why_mclane_content_subheading
+  label: why_mclane_content_subheading
+- type: textarea
+  name: why_mclane_content
+  label: why_mclane_content
+- type: file
+  name: why_mclane_content_image
+  label: why_mclane_content_image
+- type: text
+  name: why_mclane_content_button_text
+  label: why_mclane_content_button_text
+- type: text
+  name: services_content_heading
+  label: services_content_heading
+- type: text
+  name: services_content_subheading
+  label: services_content_subheading
+- type: textarea
+  name: services_content
+  label: services_content
+- type: text
+  name: services_content_image
+  label: services_content_image
+- type: text
+  name: services_content_button_text
+  label: services_content_button_text
