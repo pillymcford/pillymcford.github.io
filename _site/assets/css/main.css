@@ -1439,7 +1439,7 @@ a.list-item { background-color: whitesmoke; cursor: pointer; }
 .modal-content-wrap { margin-top: .5rem; }
 .modal-content-wrap .column { padding-bottom: 0; }
 
-.modal-copy { padding: 1.2rem 2.8rem 0rem 1rem; }
+.modal-copy { padding: 1.2rem 2.8rem 1rem 1rem; }
 
 .modal-content, .modal-card { margin: 0 0; max-height: calc(100vh - 160px); overflow: auto; position: relative; width: 100%; }
 @media screen and (min-width: 769px), print { .modal-content, .modal-card { margin: 0 auto; max-height: calc(100vh - 40px); width: 960px; } }
