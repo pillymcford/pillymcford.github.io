@@ -6,7 +6,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
   aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
   nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
   officia deserunt mollit anim id est laborum.
-modal_hero_image: ''
+modal_hero_image: "/assets/images/services/asphalt-hero.JPG"
 modal_images:
 - "/assets/images/values/why-mclane-hero.jpg"
 - "/assets/images/heros/home-hero5.jpg"
