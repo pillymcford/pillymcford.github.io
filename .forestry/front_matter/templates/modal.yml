@@ -11,6 +11,7 @@ fields:
 - type: text
   name: modal_hero_image
   label: modal_hero_image
-- type: list
-  name: modal_images
-  label: modal_images
+- name: modal_images
+  type: image_gallery
+  config: {}
+  label: Modal Images
