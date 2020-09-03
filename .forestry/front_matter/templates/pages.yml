@@ -52,3 +52,5 @@ fields:
 - type: text
   name: services_content_button_text
   label: services_content_button_text
+pages:
+- index.html
