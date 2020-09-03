@@ -1,0 +1,7 @@
+---
+label: Homepage Image Slider
+hide_body: true
+fields:
+- type: list
+  name: images
+  label: images
