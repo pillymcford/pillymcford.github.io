@@ -8,9 +8,6 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
   officia deserunt mollit anim id est laborum.
 images:
 - image: "/assets/images/services/cedar.jpg"
-- image: http://placekitten.com/1280/960
-- image: http://placekitten.com/1280/960
-- image: http://placekitten.com/1280/960
 
 ---
 We buy all of our cedar shingles through Kenyon Noble or Simkins and Hallin.
