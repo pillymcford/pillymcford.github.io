@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 { font-family: "Lora", serif; }
 
 code, pre { -moz-osx-font-smoothing: auto; -webkit-font-smoothing: auto; font-family: monospace; }
 
-body { color: #3E4A3D; font-size: 1em; font-weight: 400; line-height: 1.5; }
+body { color: #093C0E; font-size: 1em; font-weight: 400; line-height: 1.5; }
 
 a { color: #0092CF; cursor: pointer; text-decoration: none; }
 a strong { color: currentColor; }
@@ -1825,6 +1825,9 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .tns-outer { position: relative; }
 
+.tns-inner { color: #E9F8DA; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
+.tns-inner .title, .tns-inner .subtitle { color: #E9F8DA; }
+
 .tns-controls [disabled] { color: #999999; background: #B3B3B3; cursor: not-allowed !important; }
 
 .tns-nav { text-align: center; padding-top: 1.36rem; position: relative; right: 12px; z-index: 10; }
@@ -2534,8 +2537,8 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 
 .subsection { padding-top: 2rem; }
 
-.footer { background-color: #effeed; padding: 3rem 1.5rem 7rem; color: #427f32; }
-.footer a, .footer p { color: #427f32; }
+.footer { background-color: #effeed; padding: 3rem 1.5rem 7rem; color: #1D5B19; }
+.footer a, .footer p { color: #1D5B19; }
 .footer sup { top: 1px; }
 
 .modal { display: flex; visibility: hidden; }

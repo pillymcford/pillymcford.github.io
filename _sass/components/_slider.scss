@@ -150,7 +150,14 @@ $perpage: 3;
   position: relative;
   // min-height: 420px;
 }
-
+.tns-inner {
+  color: #E9F8DA;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  .title,
+  .subtitle {
+    color: #E9F8DA;
+  }
+}
 
 .tns-controls [disabled] {
   color: #999999;
