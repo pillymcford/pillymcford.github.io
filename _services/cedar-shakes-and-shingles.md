@@ -1,4 +1,5 @@
 ---
+layout: modal
 title: Cedar Shakes and Shingles
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -13,6 +14,4 @@ images:
 - image: http://placekitten.com/1280/960
 
 ---
-<div class="content">
 We buy all of our cedar shingles through Kenyon Noble or Simkins and Hallin.
-</div>
