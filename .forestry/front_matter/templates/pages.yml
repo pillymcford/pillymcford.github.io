@@ -1,5 +1,5 @@
 ---
-label: Pages
+label: Homepage
 hide_body: false
 fields:
 - type: text
@@ -41,11 +41,11 @@ fields:
 - type: textarea
   name: services_content
   label: services_content
-- name: service_content_image
+- name: services_content_image
   type: file
   config:
     maxSize: 64
-  label: Service Content Image
+  label: Services Content Image
 - type: text
   name: services_content_button_text
   label: services_content_button_text
