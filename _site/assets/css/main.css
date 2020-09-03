@@ -942,7 +942,7 @@ a.tag:hover { text-decoration: underline; }
 .title sup, .subtitle sup { font-size: 0.75em; }
 .title .tag, .subtitle .tag { vertical-align: middle; }
 
-.title { color: #3E4A3D; text-transform: uppercase; font-size: 2rem; font-weight: 500; line-height: 1.125; }
+.title { color: #093C0E; text-transform: uppercase; font-size: 2rem; font-weight: 500; line-height: 1.125; }
 .title strong { color: inherit; font-weight: inherit; }
 .title sup { font-size: 0.75em; position: relative; top: 9px; }
 .title + .highlight { margin-top: -0.75rem; }
