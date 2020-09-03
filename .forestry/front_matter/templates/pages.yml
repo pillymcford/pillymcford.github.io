@@ -17,9 +17,6 @@ fields:
 - type: textarea
   name: homepage_hero_sub_heading
   label: homepage_hero_sub_heading
-- type: file
-  name: homepage_hero_background_image
-  label: homepage_hero_background_image
 - type: text
   name: why_mclane_content_heading
   label: why_mclane_content_heading
