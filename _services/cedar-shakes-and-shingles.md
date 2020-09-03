@@ -6,8 +6,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
   aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
   nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
   officia deserunt mollit anim id est laborum.
-images:
-- image: "/assets/images/services/cedar.jpg"
+images: []
 
 ---
 We buy all of our cedar shingles through Kenyon Noble or Simkins and Hallin.
