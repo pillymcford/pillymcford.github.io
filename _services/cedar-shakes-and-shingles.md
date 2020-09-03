@@ -1,6 +1,6 @@
 ---
 title: Cedar Shakes and Shingles
-modal_hero_image: "/assets/images/services/repairs-hero.jpg"
+modal_hero_image: "/assets/images/services/cedar.jpg"
 modal_images:
 - "/assets/images/services/services-hero.jpg"
 
