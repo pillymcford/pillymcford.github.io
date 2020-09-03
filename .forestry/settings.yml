@@ -5,10 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: _data/homepage_image_slider.yaml
+  path: _data
   label: Homepage Image Slider
   create: all
-  match: "**/*"
+  match: homepage_image_slider.yaml
 - type: document
   path: _data/testimonials.yaml
   label: Testimonials
