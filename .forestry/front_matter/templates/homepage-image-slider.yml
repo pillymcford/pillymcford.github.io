@@ -2,6 +2,7 @@
 label: Homepage Image Slider
 hide_body: true
 fields:
-- type: list
-  name: images
-  label: images
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
