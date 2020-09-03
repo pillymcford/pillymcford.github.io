@@ -8,14 +8,14 @@ fields:
 - type: textarea
   name: description
   label: description
-- name: modal_images
-  type: image_gallery
-  config: {}
-  label: Modal Images
 - name: modal_hero_image
   type: file
   config:
     maxSize: 64
   label: Modal Hero Image
+- name: modal_images
+  type: image_gallery
+  config: {}
+  label: Modal Images
 pages:
 - _services/aslphalt.md
