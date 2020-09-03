@@ -1,6 +1,5 @@
 ---
 title: Cedar Shakes and Shingles
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 modal_hero_image: "/assets/images/services/repairs-hero.jpg"
 modal_images:
 - "/assets/images/services/services-hero.jpg"
