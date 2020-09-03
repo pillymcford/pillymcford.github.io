@@ -1,4 +1,9 @@
 ---
 label: Modal
 hide_body: true
-fields: []
+fields:
+- name: upload_modal_photos
+  type: image_gallery
+  config: {}
+  label: Upload modal photos
+  description: upload photos for either services and values modals.
