@@ -1,15 +1,13 @@
-<section class="section is-small">
-  <div class="image-gallery container">
+<div class="image-gallery dimmed is-relative">
   <!-- <h2 class="title is-3 is-size-4-mobile has-text-white has-text-centered is-family-sans-serif"><em>Crafted Eve to Peak.</em></h2> -->
-    <div class="image-slider">
-      {% for image in site.data.homepage_image_slider.images %}
-      <div class="slide">
-        <img class="image is-fullwidth" src="{{ image }}" />
-      </div>
-      {% endfor %}
+  <div class="image-slider">
+    {% for image in site.data.homepage_image_slider.images %}
+    <div class="slide">
+      <img class="image is-fullwidth parallax" src="{{ image }}" />
     </div>
+    {% endfor %}
   </div>
-</section>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 <script>
   var slider = tns({
@@ -17,13 +15,20 @@
     container: '.image-slider',
     items: 1,
     autoplay: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 3000,
     autoplayHoverPause: false,
     mode: 'gallery',
     controls: false,
-    navPosition: 'bottom',
-    speed: 500,
-    nav: true,
+    speed: 800,
+    nav: false,
     autoplayButtonOutput: false
   });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+<script>
+var image = document.getElementsByClassName('parallax');
+new simpleParallax(image, {
+	orientation: 'up',
+  scale: 1.3
+});
 </script>
