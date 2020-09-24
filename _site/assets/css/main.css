@@ -2518,7 +2518,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .hero-body { flex-grow: 1; flex-shrink: 0; padding: 3rem 1.5rem; }
 
 .dimmed { position: relative; }
-.dimmed:before { content: " "; z-index: 10; display: block; position: absolute; height: calc(100% - 15px); top: 0; left: 0; right: 0; background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.3) 66%, rgba(255, 255, 255, 0.1) 100%); }
+.dimmed:before { content: " "; z-index: 10; display: block; position: absolute; height: calc(100% - 15px); top: 0; left: 0; right: 0; background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.2) 66%, rgba(255, 255, 255, 0.1) 100%); }
 
 .hero-content { position: relative; margin-top: -420px; margin-bottom: 180px; background-color: #f2f2de69; z-index: 11; }
 @media (max-width: 1000px) { .hero-content { margin-bottom: 80px; } }
