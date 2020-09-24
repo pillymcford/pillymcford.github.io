@@ -281,10 +281,11 @@ $hero-body-padding-large: 18rem 1.5rem !default;
   position: relative;
   margin-top: -420px;
   margin-bottom: 180px;
-  background-color: #f2f2de69;
+  background-color: #f2f2de8f;
   z-index: 11;
   @media(max-width: 1000px) {
-    margin-bottom: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 .green-hero {
