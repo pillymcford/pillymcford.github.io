@@ -269,11 +269,11 @@ $hero-body-padding-large: 18rem 1.5rem !default;
     z-index: 10;
     display: block;
     position: absolute;
-    height: calc(100% - 15px);
+    height: 100%;
     top: 0;
     left: 0;
     right: 0;
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255, 0.2) 66%, rgba(255, 255, 255, 0.1) 100%);
+    background: -webkit-radial-gradient(top center, ellipse cover, rgba(0, 0, 0, 0.3) 66%, rgba(255, 255, 255, 0.1) 100%);
   }
 }
 
