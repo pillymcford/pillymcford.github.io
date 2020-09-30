@@ -24,4 +24,5 @@ fields:
   name: intro_text
   label: intro_text
 pages:
+- services/index.html
 - why-mclane/index.html
