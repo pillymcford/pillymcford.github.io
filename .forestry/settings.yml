@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: _data
+  label: Homepage Gallery
+  create: all
+  match: about_us_gallery.yaml
+- type: directory
   path: _values
   label: Values
   create: all
