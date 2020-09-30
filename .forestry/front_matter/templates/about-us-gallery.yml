@@ -6,3 +6,5 @@ fields:
   type: image_gallery
   config: {}
   label: Images
+pages:
+- _data/about_us_gallery.yaml
