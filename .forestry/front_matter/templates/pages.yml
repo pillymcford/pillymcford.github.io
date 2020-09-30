@@ -1,5 +1,5 @@
 ---
-label: Pages
+label: Homepage
 hide_body: false
 fields:
 - type: text
@@ -11,15 +11,43 @@ fields:
 - type: text
   name: description
   label: description
-- type: file
-  name: hero_background_image
-  label: hero background image
-- type: number
-  name: hero_background_image_position_y
-  label: hero_background_image_position_y
 - type: text
-  name: hero_heading
-  label: hero_heading
+  name: homepage_hero_heading
+  label: homepage_hero_heading
 - type: textarea
-  name: intro_text
-  label: intro_text
+  name: homepage_hero_sub_heading
+  label: homepage_hero_sub_heading
+- type: text
+  name: why_mclane_content_heading
+  label: why_mclane_content_heading
+- type: text
+  name: why_mclane_content_subheading
+  label: why_mclane_content_subheading
+- type: textarea
+  name: why_mclane_content
+  label: why_mclane_content
+- type: file
+  name: why_mclane_content_image
+  label: why_mclane_content_image
+- type: text
+  name: why_mclane_content_button_text
+  label: why_mclane_content_button_text
+- type: text
+  name: services_content_heading
+  label: services_content_heading
+- type: text
+  name: services_content_subheading
+  label: services_content_subheading
+- type: textarea
+  name: services_content
+  label: services_content
+- name: services_content_image
+  type: file
+  config:
+    maxSize: 64
+  label: Services Content Image
+- type: text
+  name: services_content_button_text
+  label: services_content_button_text
+pages:
+- index.html
