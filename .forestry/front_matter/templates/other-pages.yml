@@ -24,6 +24,7 @@ fields:
   name: intro_text
   label: intro_text
 pages:
+- about-us/index.html
 - contact-us/index.html
 - services/index.html
 - why-mclane/index.html
