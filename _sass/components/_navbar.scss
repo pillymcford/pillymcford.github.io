@@ -6,16 +6,13 @@ $navbar-padding-vertical: 1rem !default;
 $navbar-padding-horizontal: 2rem !default;
 $navbar-z: 30 !default;
 $navbar-fixed-z: 30 !default;
-
 $navbar-item-color: #EEFEED !default;
 $navbar-item-hover-color: #fff !default;
 $navbar-item-hover-background-color: darken($green, 5%) !default;
 $navbar-item-active-color: #fff;
 $navbar-item-active-background-color: darken($green, 5%) !default;
 $navbar-item-img-max-height: 1.75rem !default;
-
 $navbar-burger-color: $navbar-item-color !default;
-
 $navbar-tab-hover-background-color: transparent !default;
 $navbar-tab-hover-border-bottom-color: $link !default;
 $navbar-tab-active-color: $link !default;
@@ -23,29 +20,22 @@ $navbar-tab-active-background-color: transparent !default;
 $navbar-tab-active-border-bottom-color: $link !default;
 $navbar-tab-active-border-bottom-style: solid !default;
 $navbar-tab-active-border-bottom-width: 3px !default;
-
 $navbar-dropdown-background-color: $scheme-main !default;
 $navbar-dropdown-border-top: 2px solid $border !default;
 $navbar-dropdown-offset: -4px !default;
 $navbar-dropdown-arrow: $link !default;
 $navbar-dropdown-radius: $radius-large !default;
 $navbar-dropdown-z: 20 !default;
-
 $navbar-dropdown-boxed-radius: $radius-large !default;
 $navbar-dropdown-boxed-shadow: 0 8px 8px bulmaRgba($scheme-invert, 0.1), 0 0 0 1px bulmaRgba($scheme-invert, 0.1) !default;
-
 $navbar-dropdown-item-hover-color: $scheme-invert !default;
 $navbar-dropdown-item-hover-background-color: $background !default;
 $navbar-dropdown-item-active-color: $link !default;
 $navbar-dropdown-item-active-background-color: $background !default;
-
 $navbar-divider-background-color: $background !default;
 $navbar-divider-height: 2px !default;
-
 $navbar-bottom-box-shadow-size: 0 -2px 0 0 !default;
-
 $navbar-breakpoint: $desktop !default;
-
 @mixin navbar-fixed {
   left: 0;
   position: fixed;
@@ -66,6 +56,7 @@ $navbar-breakpoint: $desktop !default;
     width: 100vw;
     height: 72px;
     top: 0;
+    transition: transform .2s ease;
     @media screen and (max-width: 1023px) {
       display: none;
     }
@@ -90,9 +81,9 @@ $navbar-breakpoint: $desktop !default;
 
         & > a.navbar-item,
         .navbar-link {
+          &.is-active,
           &:focus,
-          &:hover,
-          &.is-active {
+          &:hover {
             background-color: bulmaDarken($color, 5%);
             color: $color-invert;
           }
@@ -108,10 +99,9 @@ $navbar-breakpoint: $desktop !default;
       .navbar-burger {
         color: $color-invert;
       }
-
       @include from($navbar-breakpoint) {
-        .navbar-start,
-        .navbar-end {
+        .navbar-end,
+        .navbar-start {
           & > .navbar-item,
           .navbar-link {
             color: $color-invert;
@@ -119,9 +109,9 @@ $navbar-breakpoint: $desktop !default;
 
           & > a.navbar-item,
           .navbar-link {
+            &.is-active,
             &:focus,
-            &:hover,
-            &.is-active {
+            &:hover {
               background-color: bulmaDarken($color, 5%);
               color: $color-invert;
             }
@@ -134,9 +124,9 @@ $navbar-breakpoint: $desktop !default;
           }
         }
 
+        .navbar-item.has-dropdown.is-active .navbar-link,
         .navbar-item.has-dropdown:focus .navbar-link,
-        .navbar-item.has-dropdown:hover .navbar-link,
-        .navbar-item.has-dropdown.is-active .navbar-link {
+        .navbar-item.has-dropdown:hover .navbar-link {
           background-color: bulmaDarken($color, 5%);
           color: $color-invert;
         }
@@ -183,8 +173,8 @@ $navbar-breakpoint: $desktop !default;
   }
 }
 
-html,
-body {
+body,
+html {
   &.has-navbar-fixed-top {
     padding-top: 9.4rem;
     @media screen and (max-width: 1023px) {
@@ -216,7 +206,6 @@ body {
 
 .navbar-tabs {
   @include overflow-touch;
-
   max-width: 100vw;
   overflow-x: auto;
   overflow-y: hidden;
@@ -224,9 +213,7 @@ body {
 
 .navbar-burger {
   color: $navbar-burger-color;
-
   @include hamburger($navbar-height);
-
   margin-left: auto;
 }
 
@@ -250,14 +237,14 @@ body {
   }
 }
 
-a.navbar-item,
-.navbar-link {
+.navbar-link,
+a.navbar-item {
   cursor: pointer;
 
+  &.is-active,
   &:focus,
   &:focus-within,
-  &:hover,
-  &.is-active {
+  &:hover {
     background-color: $navbar-item-hover-background-color;
     color: $navbar-item-hover-color;
   }
@@ -312,7 +299,6 @@ a.navbar-item,
 
   &::after {
     @extend %arrow;
-
     border-color: $navbar-dropdown-arrow;
     margin-top: -0.375em;
     right: 1.125em;
@@ -337,7 +323,6 @@ a.navbar-item,
   height: $navbar-divider-height;
   margin: 0.5rem 0;
 }
-
 @include until($navbar-breakpoint) {
   .navbar > .container {
     display: block;
@@ -366,7 +351,6 @@ a.navbar-item,
       display: block;
     }
   }
-
   // Fixed navbar
   .navbar {
     &.is-fixed-bottom-touch,
@@ -390,15 +374,14 @@ a.navbar-item,
     &.is-fixed-top-touch {
       .navbar-menu {
         @include overflow-touch;
-
         max-height: calc(100vh - #{$navbar-height});
         overflow: auto;
       }
     }
   }
 
-  html,
-  body {
+  body,
+  html {
     &.has-navbar-fixed-top-touch {
       padding-top: $navbar-height;
     }
@@ -408,39 +391,38 @@ a.navbar-item,
     }
   }
 }
-
-
 @include from($navbar-breakpoint) {
   .navbar,
+  .navbar-end,
   .navbar-menu,
-  .navbar-start,
-  .navbar-end {
+  .navbar-start {
     align-items: stretch;
     display: flex;
   }
 
   .navbar {
     min-height: $navbar-height;
+
     &.is-spaced {
       padding: $navbar-padding-vertical $navbar-padding-horizontal;
 
-      .navbar-start,
-      .navbar-end {
+      .navbar-end,
+      .navbar-start {
         align-items: center;
       }
 
-      a.navbar-item,
-      .navbar-link {
+      .navbar-link,
+      a.navbar-item {
         border-radius: $radius;
       }
     }
 
     &.is-transparent {
-      a.navbar-item,
-      .navbar-link {
+      .navbar-link,
+      a.navbar-item {
+        &.is-active,
         &:focus,
-        &:hover,
-        &.is-active {
+        &:hover {
           background-color: transparent !important;
         }
       }
@@ -510,8 +492,8 @@ a.navbar-item,
       .navbar-dropdown {
         display: block;
 
-        .navbar.is-spaced &,
-        &.is-boxed {
+        &.is-boxed,
+        .navbar.is-spaced & {
           opacity: 1;
           pointer-events: auto;
           transform: translateY(0);
@@ -528,9 +510,11 @@ a.navbar-item,
   .navbar-start {
     justify-content: flex-start;
     margin-right: auto;
+
     &.is-centered {
       flex-grow: 1;
       justify-content: center;
+
       .navbar-item {
         padding: 0 2rem;
       }
@@ -576,8 +560,8 @@ a.navbar-item,
       }
     }
 
-    .navbar.is-spaced &,
-    &.is-boxed {
+    &.is-boxed,
+    .navbar.is-spaced & {
       border-radius: $navbar-dropdown-boxed-radius;
       border-top: none;
       box-shadow: $navbar-dropdown-boxed-shadow;
@@ -600,8 +584,8 @@ a.navbar-item,
     display: block;
   }
 
-  .navbar > .container,
-  .container > .navbar {
+  .container > .navbar,
+  .navbar > .container {
     .navbar-brand {
       margin-left: -0.75rem;
     }
@@ -610,7 +594,6 @@ a.navbar-item,
       margin-right: -0.75rem;
     }
   }
-
   // Fixed navbar
   .navbar {
     &.is-fixed-bottom-desktop,
@@ -631,8 +614,8 @@ a.navbar-item,
     }
   }
 
-  html,
-  body {
+  body,
+  html {
     &.has-navbar-fixed-top-desktop {
       padding-top: $navbar-height;
     }
@@ -649,10 +632,9 @@ a.navbar-item,
       padding-bottom: $navbar-height + $navbar-padding-vertical * 2;
     }
   }
-
   // Hover/Active states
-  a.navbar-item,
-  .navbar-link {
+  .navbar-link,
+  a.navbar-item {
     &.is-active {
       color: $navbar-item-active-color;
     }
@@ -663,9 +645,9 @@ a.navbar-item,
   }
 
   .navbar-item.has-dropdown {
+    &.is-active,
     &:focus,
-    &:hover,
-    &.is-active {
+    &:hover {
       .navbar-link {
         background-color: $navbar-item-hover-background-color;
       }
@@ -683,7 +665,6 @@ a.navbar-item,
     position: static;
   }
 }
-
 // Combination
 
 .hero {
@@ -691,11 +672,11 @@ a.navbar-item,
     min-height: calc(100vh - #{$navbar-height});
   }
 }
-
 @media screen and (min-width: 1088px) {
   .my-navbar {
     display: block !important;
   }
+
   .my-navbar .navbar-brand {
     display: none;
   }
@@ -703,11 +684,30 @@ a.navbar-item,
   //   width: 600px;
   //   margin: 0 auto;
   // }
-  #my-navbar-menu>div {
+  #my-navbar-menu > div {
     flex: 1;
   }
-  #my-navbar-menu>div>div {
+
+  #my-navbar-menu > div > div {
     flex: 1;
     justify-content: center;
+  }
+}
+
+.shrink-nav {
+  @media(min-width: 1024px) {
+    transform: translateY(-74px);
+    transition: all 0.2s ease;
+
+    &:before {
+      background-color: inherit;
+    }
+  }
+
+  .logo {
+    @media(min-width: 1024px) {
+      transform: translateY(36px) scale(0.49);
+      transition: all 0.2s ease;
+    }
   }
 }
