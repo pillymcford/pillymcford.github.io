@@ -105,14 +105,16 @@
 <section class="section is-small pt-0">
   <div class="container">
     <h2 class="title is-size-4-mobile">The Crew</h2>
-    <div class="columns">
-      <div class="column is-9"><a href="#"><img src="/assets/images/about-us/paddle.jpg" alt="" data-config-id="image"></a></div>
-      <div class="column is-3">
-        <div class="columns is-mobile is-multiline">
-          <div class="column is-6-mobile is-12-tablet"><a href="#"><img src="/assets/images/about-us/talisker.jpg" alt=""></a></div>
-          <div class="column is-6-mobile is-12-tablet"><a href="#"><img src="/assets/images/about-us/plans.jpg" alt=""></a></div>
-        </div>
-      </div>
+    <div class="container" id="macy-container">
+      
+        <img src="/assets/images/about-us/paddle.jpg" alt="McLane Construction">
+      
+        <img src="/assets/images/about-us/talisker.jpg" alt="McLane Construction">
+      
+        <img src="/assets/images/about-us/plans.jpg" alt="McLane Construction">
+      
+        <img src="/assets/images/heros/hero-2-large.jpg" alt="McLane Construction">
+      
     </div>
     <div class="columns">
       <div class="column is-half">
@@ -123,6 +125,20 @@
     </div>
   </div>
 </section>
+<script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+<script>
+var macy = Macy({
+  container: '#macy-container',
+  trueOrder: false,
+  waitForImages: false,
+  margin: 24,
+  columns: 3,
+  breakAt: {
+      520: 2,
+      400: 1
+  }
+});
+</script>
 
   <section class="green-hero">
   <div class="container has-text-centered">
