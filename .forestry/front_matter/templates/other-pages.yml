@@ -13,10 +13,10 @@ fields:
   label: description
 - type: file
   name: hero_background_image
-  label: hero_background_image
+  label: Hero background image
 - type: number
   name: hero_background_image_position_y
-  label: hero_background_image_position_y
+  label: Hero background image vertical position
 - type: text
   name: hero_heading
   label: hero_heading
