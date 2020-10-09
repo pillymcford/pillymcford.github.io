@@ -16,6 +16,9 @@ $container-offset: 2 * $gap !default;
   &.text {
     max-width: 980px;
     margin: 0 auto;
+    &.small {
+      max-width: 660px;
+    }
   }
 
   &.image-gallery {
