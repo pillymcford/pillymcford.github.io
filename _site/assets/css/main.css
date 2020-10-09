@@ -2528,7 +2528,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .dimmed { position: relative; }
 .dimmed:before { content: " "; z-index: 10; display: block; position: absolute; height: 100%; top: 0; left: 0; right: 0; background: -webkit-radial-gradient(top center, ellipse cover, rgba(0, 0, 0, 0.3) 66%, rgba(255, 255, 255, 0.1) 100%); }
 
-.hero-content { position: relative; margin-top: -430px; margin-bottom: 190px; margin-left: auto; margin-right: auto; background-color: #f2f2ded9; border: 3px solid #427f3294; box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; z-index: 11; max-width: 660px; }
+.hero-content { position: relative; margin-top: -430px; margin-bottom: 190px; margin-left: auto; margin-right: auto; background-color: #f2f2ded9; border: 3px solid #427f3294; box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; z-index: 11; max-width: 700px; }
 @media (max-width: 1000px) { .hero-content { margin-top: -205px; margin-bottom: -10px; max-width: 100%; } }
 
 .green-hero { background-color: #769A75; }
