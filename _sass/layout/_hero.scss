@@ -273,7 +273,8 @@ $hero-body-padding-large: 18rem 1.5rem !default;
   position: relative;
   margin-top: -420px;
   margin-bottom: 180px;
-  background-color: #f2f2de8f;
+  background-color: #f2f2ded9;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   z-index: 11;
   @media(max-width: 1000px) {
     margin-top: 0;
