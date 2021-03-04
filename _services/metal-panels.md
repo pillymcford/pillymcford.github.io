@@ -2,6 +2,10 @@
 title: Metal Panels
 modal_hero_image: "/assets/images/heros/home-hero3.jpg"
 modal_images:
+- "/assets/images/services/metal-panels.jpg"
+- "/assets/images/img_0289.JPG"
+- "/assets/images/services/metal-panels3.jpg"
+- "/assets/images/img_0288.JPG"
 - "/assets/images/services/metal-panels-hero.JPG"
 
 ---
