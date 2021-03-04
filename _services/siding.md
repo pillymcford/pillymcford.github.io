@@ -2,7 +2,15 @@
 title: Siding
 modal_hero_image: "/assets/images/services/siding-hero.jpg"
 modal_images:
-- "/assets/images/heros/home-hero5.jpg"
+- "/assets/images/img_0302.JPG"
+- "/assets/images/img_0303.JPG"
+- "/assets/images/img_0312.JPG"
+- "/assets/images/imgp2102.JPG"
+- "/assets/images/imgp2091.JPG"
+- "/assets/images/imgp2061.JPG"
+- "/assets/images/imgp2203.JPG"
+- "/assets/images/img_0486.JPG"
+- "/assets/images/img_0323.JPG"
 
 ---
 Siding protects your building from the elements, critters, and bumps and scrapes.  It is also a major architectural feature and has has as much verity as you can dream up.  Wood, composite, metal, masonry.  Vertical, horizontal, and everything inbetween.  Lapped, or rainscreen.  Each of these have different profiles, finishes, and colors to choose from.  We do it all, except for masonry.
