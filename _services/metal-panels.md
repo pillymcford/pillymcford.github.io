@@ -2,11 +2,16 @@
 title: Metal Panels
 modal_hero_image: "/assets/images/heros/home-hero3.jpg"
 modal_images:
+- "/assets/images/imgp2096-2.jpg"
+- "/assets/images/img_0267.JPG"
+- "/assets/images/img_0387.JPG"
 - "/assets/images/services/metal-panels.jpg"
-- "/assets/images/img_0289.JPG"
+- "/assets/images/img_0731.JPG"
+- "/assets/images/img_0719.JPG"
+- "/assets/images/img_0219.JPG"
 - "/assets/images/services/metal-panels3.jpg"
 - "/assets/images/img_0288.JPG"
-- "/assets/images/services/metal-panels-hero.JPG"
+- "/assets/images/img_0289.JPG"
 
 ---
 Metal panels come in all shapes and sizes: corrugated, single or double lock standing seam, mechanical or snap lock standing seam, screw-down panels, different gauges, and all sorts of colors.  We work with several local suppliers that manufacture panels and custom trim.
