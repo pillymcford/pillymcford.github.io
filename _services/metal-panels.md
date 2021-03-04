@@ -23,8 +23,8 @@ Metal panels come in all shapes and sizes: corrugated, single or double lock sta
 
 **The Craft:**  Each step, from planning to install, makes our metal roofs a work of art that stand the test of time:
 
-* A careful layout plan for panels and trim.  Each piece is ordered to fit, and has a home.
-* The right tools for the job, from hand seamers and welting irons, to a power seamer and a snap table.
-* No pinch points
-* Crisp, clean details.  Our guys do origami with metal.  High and tight, every time.
-* Trim/flashing
+1. A careful layout plan for panels and trim.  Each piece is ordered to fit, and has a home.
+2. The right tools for the job, from hand seamers and welting irons, to a power seamer and a snap table.
+3. No pinch points for water to stall out and pool up.
+4. Crisp, clean details.  Our guys do origami with metal.  High and tight, every time.
+5. Perfect flashing will always save the day
