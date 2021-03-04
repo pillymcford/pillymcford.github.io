@@ -1,8 +1,7 @@
 ---
 title: Metal Panels
-modal_hero_image: "/assets/images/heros/home-hero3.jpg"
+modal_hero_image: "/assets/images/imgp2096-2.jpg"
 modal_images:
-- "/assets/images/imgp2096-2.jpg"
 - "/assets/images/img_0267.JPG"
 - "/assets/images/img_0743.JPG"
 - "/assets/images/img_0387.JPG"
