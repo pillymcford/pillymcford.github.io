@@ -2,7 +2,13 @@
 title: Flat Membrane
 modal_hero_image: "/assets/images/services/flat-membrane-hero.JPG"
 modal_images:
-- "/assets/images/heros/home-hero4.jpg"
+- "/assets/images/img_0523.JPG"
+- "/assets/images/img_7415.JPG"
+- "/assets/images/img_0098.JPG"
+- "/assets/images/img_0547.JPG"
+- "/assets/images/img_0522-cropped.jpg"
+- "/assets/images/img_7323.JPG"
+- "/assets/images/img_0614.JPG"
 
 ---
 Flat roofing can be done with several types of materials, but we prefer to work TPO, or thermoplastic polyolefin (actually a rubber), sourced from R&S Supply in Bozeman.  Unlike other flat roofing materials, TPO can be heat welded together.  This means that seams and details, which are the most vulnerable places on your roof, are not reliant on glue.  Heat welding results in a stronger and more complete bond, and allows us to keep working all winter long becuase the bond is not temperature dependent.
