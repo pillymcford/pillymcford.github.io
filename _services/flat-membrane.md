@@ -18,8 +18,8 @@ Flat roofing can be done with several types of materials, but we prefer to work 
 
 **Cons:** In Montana, snow can really pile up on a flat roof, so your roof framing has to be beefy enough to handel it.  If there is so much as a pin prick in the membrain, the roof will leak.  And leaks are hard to track down, because once water gets through, it can travel long distances before dripping down where you notice it.
 
-**The Craft:** 
+**The Craft:**
 
-1. We use TPO coated metal for our flashing details, which means we can weld the roof membrain directly to the flashing and create a continuous waterproof surface.  
-2. Slope, although nearly flat, is critical.  We are meticulouse about maintaining atleast 1/8" per foot slope to direct water off of your roof.
-3. Drains must be placed and sized correctly to prevent water from backing up and giving it a chance to find a pin prick hole, or exceeding your roofs design weight loads.  Experience and close attention to detail ensures water will not wick around your scuppers and drip behind your siding.
+1. We use TPO coated metal for our flashing details, which means we can weld the roof membrain directly to the flashing and create a continuous waterproof surface.
+2. Flat is a misnomer.  A slight pitch is critical, and we are meticulouse about maintaining atleast 1/8" per foot of slope to direct water off of your roof.
+3. Drains must be placed and sized correctly to prevent water from backing up and giving it a chance to find a pin prick hole, or exceeding your roof's designed weight loads.  Experience and close attention to detail ensures water will not wick around your scuppers and drip behind your siding.
