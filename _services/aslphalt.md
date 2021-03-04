@@ -2,8 +2,15 @@
 title: Asphalt Roofing
 modal_hero_image: "/assets/images/services/asphalt-hero.JPG"
 modal_images:
-- "/assets/images/heros/home-hero5.jpg"
-- "/assets/images/values/why-mclane-hero.jpg"
+- "/assets/images/img_0259.JPG"
+- "/assets/images/img_0415.JPG"
+- "/assets/images/img_7344.JPG"
+- "/assets/images/img_0462.JPG"
+- "/assets/images/img_0474.JPG"
+- "/assets/images/img_0481.JPG"
+- "/assets/images/imgp1038.JPG"
+- "/assets/images/img_0449.JPG"
+- "/assets/images/imgp2104.JPG"
 
 ---
 We work with Malarkey and Certainteed shingles most often.  In Montana, the style is almost always “Architectural”, but there are many colors to choose from.
