@@ -23,12 +23,19 @@ Roofing and siding tie into the whole building system, so when we show up for a 
 **Ice dams:** Water that freezes on the eves of your roof, blocking the flow of water off of your roof, and causing it to pool. 
 
 * Poor insulation.  When the heat from inside your building causes the snow on the roof to melt, but as soon as the water gets past the exterior wall, it freezes again.
-* Incorrectly installed heat tape.  Heat tape does not necessarly prevent ice dams from froming, but creates channels through the snow and ice for water to escape.  
+* Incorrectly installed heat tape.  Heat tape does not necessarly prevent ice dams from froming, but is designed to create channels through the snow and ice for water to escape.  
 
 **Degraded shingles:** This could look like sluffing granules, curling shingles, or buckling shingles.
 
-**Blown off shingles:**
+* Poor ventilation.  Without adequate ventilation, shingles can overheat, especially cedar products, and degrade quickly.
+* Shingles intalled too tight together have no room to expand when they warm-up. 
 
-**Rotten or bubbling siding:**
+**Blown off shingles:** Oh no, that's embarassing!
 
-Siding installed too close to the roof deck
+* Sloppy nailing pattern.  Each different type of shingle has its own nailing pattern, detailing where and how many nails to use.
+* Nail blowouts.  Compressors and nail guns must be adjusted correctly.  Asphalt shingles become brittle and must be handled with care in the winter.
+
+**Chipping or bubbling paint:**
+
+* Siding installed too close to the roof deck or the ground
+* Poor flashing
