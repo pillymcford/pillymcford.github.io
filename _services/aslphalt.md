@@ -7,10 +7,8 @@ modal_images:
 - "/assets/images/img_7344.JPG"
 - "/assets/images/img_0462.JPG"
 - "/assets/images/img_0474.JPG"
-- "/assets/images/img_0481.JPG"
 - "/assets/images/imgp1038.JPG"
 - "/assets/images/img_0449.JPG"
-- "/assets/images/imgp2104.JPG"
 
 ---
 We work with Malarkey and Certainteed shingles most often.  In Montana, the style is almost always “Architectural”, but there are many colors to choose from.
@@ -30,3 +28,5 @@ We handle our shingles with care.  Asphalt shingles become brittle in the winter
 Adequate ventilation is a must.  Without it, asphalt shingles overheat and degrade quickly, and condensation gets trapped in attic spaces and causes rot and mold.
 
 ![](/assets/images/heros/home-hero2.jpg)
+
+![](/assets/images/img_0572.JPG)![](/assets/images/imgp2104.JPG)
