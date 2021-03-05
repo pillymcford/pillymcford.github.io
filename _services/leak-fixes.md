@@ -17,7 +17,7 @@ Roofing and siding tie into the whole building system, so when we show up for a 
 * Pipe jacks are dry rotted or have been installed incorrectly
 * Ice dams
 
-**Condensation and mold:** Water vapor that is unable to escape the building efficiently.
+**Condensation and mold:** Water vapor that is unable to escape the building efficiently.  Commonly mistaken for a leak.
 
 * Poor insulation.  When warm air from inside your building hits a cold surface, it condenses
 * Poor ventilation.  Vents are not sized correctly, or something is blocking the flow of air, such as framing or insulation
@@ -37,7 +37,9 @@ Roofing and siding tie into the whole building system, so when we show up for a 
 * Sloppy nailing pattern.  Each different type of shingle has its own nailing pattern, detailing where and how many nails to use.
 * Nail blowouts.  Compressors and nail guns must be adjusted correctly.  Asphalt shingles become brittle and must be handled with care in the winter.
 
-**Chipping or bubbling paint:**
+**Chipping or bubbling paint:** This could mean the siding is taking on water, causing it to expand and contract, and wear out the paint.
 
 * Siding installed too close to the roof deck or the ground
-* Poor flashing
+* Incorrect or missing roof flashing
+* Incorrect or missing flashing around windows and doors
+* Clogged gutters
