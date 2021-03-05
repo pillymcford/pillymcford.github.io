@@ -5,4 +5,22 @@ modal_images:
 - "/assets/images/values/building-science.jpg"
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Roofing and siding tie into the whole building system, so when we show up for a fix, our goal is to diagnose and address the underlying cause.  Our crew is trained to pay close attention to and have a working knowledge of venting, framing, vapor barriers, and insulation.  Here are some common symptoms and why they happen:
+
+**Leaks:** Water coming into your building from the outside.
+
+* Clogged or undersized scuppers or overflow drains
+* Pipe jacks (dry rotted, or on backwards)
+* Ice dams
+
+**Condensation and mold:** Water vapor that is unable to escape the building efficiently.
+
+**Ice dams:**
+
+**Degraded shingles:**
+
+**Blown off shingles:**
+
+**Rotten or bubbling siding:**
+
+Siding installed too close to the roof deck
