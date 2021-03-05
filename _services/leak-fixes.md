@@ -2,9 +2,12 @@
 title: Repairs
 modal_hero_image: "/assets/images/services/repairs-hero.jpg"
 modal_images:
-- "/assets/images/imgp0457.JPG"
 - "/assets/images/imgp0310.JPG"
+- "/assets/images/img_0473.JPG"
+- "/assets/images/imgp0457.JPG"
 - "/assets/images/values/building-science.jpg"
+- "/assets/images/imgp0176.JPG"
+- "/assets/images/imgp0187.JPG"
 
 ---
 Roofing and siding tie into the whole building system, so when we show up for a fix, our goal is to diagnose and address the underlying cause.  Our crew is trained to pay close attention to and have a working knowledge of venting, framing, vapor barriers, and insulation.  Here are some common symptoms and why they happen:
