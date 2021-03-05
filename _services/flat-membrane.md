@@ -12,7 +12,7 @@ modal_images:
 - "/assets/images/img_7323.JPG"
 
 ---
-Flat roofing can be done with several types of materials, but we prefer to work TPO, or thermoplastic polyolefin, sourced from R&S Supply in Bozeman and Northwest Drywall and Roofing.  Unlike other flat roofing materials, TPO can be heat welded together.  This means that seams and details, which are the most vulnerable places on your roof, are not reliant on glue.  Heat welding results in a stronger and more complete bond, and allows us to keep working all winter long becuase the bond is not temperature dependent.
+Flat roofing can be done with several types of materials, but we prefer to work TPO, or thermoplastic polyolefin.  We use products made by GAF and Carlisle, carried by R&S Supply in Bozeman and Northwest Drywall and Roofing in Belgrade.  Unlike other flat roofing materials, TPO can be heat welded together.  This means that seams and details, which are the most vulnerable places on your roof, are not reliant on glue.  Heat welding results in a stronger and more complete bond, and allows us to keep working all winter long becuase the bond is not temperature dependent.
 
 **Pros:** Flat roofing membrane can be installed on roofs with a pitch as low as 1/8" per foot.  We are essentially prepairing for your roof to be a swimming pool.  Done well, a flat membrane is the strongest line of defense against standing water.
 
