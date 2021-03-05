@@ -28,3 +28,5 @@ We work with Malarkey and Certainteed shingles most often.  In Montana, the styl
 We handle our shingles with care.  Asphalt shingles become brittle in the winter, and turn mushy in the summer.  A delicate touch and a section sequence plan ensures your shingles are not compromised.
 
 Adequate ventilation is a must.  Without it, asphalt shingles overheat and degrade quickly, and condensation gets trapped in attic spaces and causes rot and mold.
+
+![](/assets/images/heros/home-hero2.jpg)
