@@ -11,7 +11,7 @@ modal_images:
 - "/assets/images/img_0449.JPG"
 
 ---
-We work with Malarkey and Certainteed shingles most often.  In Montana, the style is almost always “Architectural”, but there are many colors to choose from.
+We work with Malarkey and Certainteed shingles most often.  In Montana, the style is almost always “Architectural”, and there are many colors to choose from.
 
 **Pros**: Asphalt shingles are the most common roofing material, and you guessed it, the least expensive.  You can expect the life of an asphalt roof to last up to 50 years, depending on ventilation and workmanship.
 
