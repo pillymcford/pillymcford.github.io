@@ -2,6 +2,8 @@
 title: Repairs
 modal_hero_image: "/assets/images/services/repairs-hero.jpg"
 modal_images:
+- "/assets/images/imgp0457.JPG"
+- "/assets/images/imgp0310.JPG"
 - "/assets/images/values/building-science.jpg"
 
 ---
