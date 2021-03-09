@@ -23,3 +23,5 @@ fields:
 - type: textarea
   name: intro_text
   label: intro_text
+pages:
+- about-us/index.html
