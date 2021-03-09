@@ -4,7 +4,7 @@
   <div class="modal-content modal-card">
     <section class="modal-card-body">
       <button class="modal-button-close modal-close" aria-label="close"></button>
-      <div class="modal-hero" style="background-image: url({{ item.modal_hero_image }});">
+      <div class="modal-hero" style="background-position-y: {{ item.modal_hero_background_image_position_y }}%; background-image: url({{ item.modal_hero_image }});">
         <h2 class="title  is-centered has-text-white">{{ item.title }}</h2>
       </div>
       <div class="modal-content-wrap">

@@ -1,6 +1,7 @@
 ---
 title: Flat Membrane
 modal_hero_image: "/assets/images/services/flat-membrane-hero.JPG"
+modal_hero_background_image_position_y: 100
 modal_images:
 - "/assets/images/img_0523.JPG"
 - "/assets/images/img_7415.JPG"
