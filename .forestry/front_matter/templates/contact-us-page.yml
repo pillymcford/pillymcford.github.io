@@ -1,5 +1,5 @@
 ---
-label: other-pages
+label: contact us
 hide_body: false
 fields:
 - type: text
@@ -23,6 +23,11 @@ fields:
 - type: textarea
   name: intro_text
   label: intro_text
+- name: in_page_image
+  type: file
+  config:
+    maxSize: 64
+  label: In page image
 pages:
 - about-us/index.html
 - contact-us/index.html
