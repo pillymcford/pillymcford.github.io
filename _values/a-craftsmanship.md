@@ -1,6 +1,7 @@
 ---
 title: Craftsmanship
 modal_hero_image: "/assets/images/values/craftsmanship.jpg"
+modal_hero_background_image_position_y: 50
 modal_images:
 - "/assets/images/heros/home-hero3.jpg"
 
