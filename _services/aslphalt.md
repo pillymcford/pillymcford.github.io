@@ -1,6 +1,7 @@
 ---
 title: Asphalt Roofing
 modal_hero_image: "/assets/images/services/asphalt-hero.JPG"
+modal_hero_background_image_position_y: 50
 modal_images:
 - "/assets/images/img_0259.JPG"
 - "/assets/images/img_0415.JPG"
@@ -17,7 +18,7 @@ We work with Malarkey and Certainteed shingles most often.  In Montana, the styl
 
 **Cons:** Asphalt shingles have their limitations.  A shingled roof is designed to work when water flows over and off of it.  In situations where water gets backed-up, leaks will likely develop.  This can happen when ice dams form and where there are pinch points in the framing.  Also for this reason, asphalt shingles should not be installed on roof pitches less than 2:12.
 
-**The Craft:** 
+**The Craft:**
 
 1. Underlayment can be more important than the shingles themselves, especially in vulnerable spots.
 2. A layout plan makes sure our rows look parallel, straight, and the same size all the way up, despite any wonky framing.  No skinny rows allowed.

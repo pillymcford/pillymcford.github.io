@@ -1,6 +1,7 @@
 ---
 title: Siding
 modal_hero_image: "/assets/images/services/siding-hero.jpg"
+modal_hero_background_image_position_y: 50
 modal_images:
 - "/assets/images/img_0302.JPG"
 - "/assets/images/img_0303.JPG"
@@ -20,5 +21,5 @@ Siding protects your building from the elements, critters, and bumps and scrapes
 **The Craft:**
 
 1. We always start with a layout plan.  Our job is to convince your eye that everything is parallel and straight in all the right places.  And we are prepaired for windows, doors, drier vents, and utility meters long before we get to them.  
-2. Details.  When it comes to cutting, folding, griding, and riveting metal, our guys are artists. 
+2. Details.  When it comes to cutting, folding, griding, and riveting metal, our guys are artists.
 3. We take a step back and walk up to your building as you would, a passer by, or one of your customers.  We wonder about the view out your office winow and what might catch your eye.  
