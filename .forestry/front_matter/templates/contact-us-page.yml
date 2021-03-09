@@ -1,0 +1,30 @@
+---
+label: other-pages
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: hero_background_image
+  label: Hero background image
+- type: number
+  name: hero_background_image_position_y
+  label: Hero background image vertical position
+- type: text
+  name: hero_heading
+  label: hero_heading
+- type: textarea
+  name: intro_text
+  label: intro_text
+pages:
+- about-us/index.html
+- contact-us/index.html
+- services/index.html
+- why-mclane/index.html
