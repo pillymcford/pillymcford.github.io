@@ -1,7 +1,7 @@
 ---
 title: Repairs
 modal_hero_image: "/assets/images/services/repairs-hero.jpg"
-modal_hero_background_image_position_y: 50
+modal_hero_background_image_position_y: "50"
 modal_images:
 - "/assets/images/imgp0310.JPG"
 - "/assets/images/img_0473.JPG"
@@ -18,7 +18,7 @@ Roofing and siding tie into the whole building system, so when we show up for a 
 * Incorrect or missing flashing
 * Incorrect or missing dry-in
 * Clogged or undersized scuppers or overflow drains
-* Pipe jacks are dry rotted or have been installed incorrectly
+* Pipe jacks are worn out or have been installed incorrectly
 * Ice dams
 
 **Condensation and mold:** Water vapor that is unable to escape the building efficiently.  Commonly mistaken for a leak.
