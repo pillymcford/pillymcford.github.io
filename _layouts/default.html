@@ -2,6 +2,11 @@
 <html lang="{{ site.lang | default: "en-US" }}" class="has-navbar-fixed-top">
 {% include head.html %}
 <body>
+  <script>
+var host = "mclaneconstruction.com";
+if ((host == window.location.host) && (window.location.protocol != "https:"))
+    window.location.protocol = "https";
+</script>
   {% include header.html %}
   {{ content }}
   {% include footer.html %}
