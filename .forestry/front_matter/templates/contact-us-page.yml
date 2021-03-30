@@ -29,6 +29,7 @@ fields:
   name: intro_text
   label: intro_text
 pages:
+- careers/index.html
 - contact-us/index.html
 - services/index.html
 - why-mclane/index.html
