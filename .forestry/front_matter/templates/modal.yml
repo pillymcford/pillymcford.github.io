@@ -14,6 +14,11 @@ fields:
   type: image_gallery
   config: {}
   label: Modal Images
+- name: modal_hero_background_image_position_y
+  type: text
+  config:
+    required: false
+  label: Modal Hero Background Position
 pages:
 - _services/aslphalt.md
 - _services/flat-membrane.md
