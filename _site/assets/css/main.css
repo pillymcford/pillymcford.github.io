@@ -2533,7 +2533,7 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .hero-content { position: relative; margin-top: -430px; margin-bottom: 215px; margin-left: auto; margin-right: auto; background-color: #f2f2ded9; border: 7px solid #427f3294; box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; z-index: 11; max-width: 700px; }
 @media (max-width: 1000px) { .hero-content { margin-top: -17px; margin-bottom: -10px; max-width: 100%; } }
 
-.green-hero { background-color: #769A75; }
+.green-hero { background-color: #82a472; }
 @media screen and (min-width: 769px), print { .green-hero { padding: 3rem 1.5rem; } }
 @media screen and (max-width: 768px) { .green-hero { padding: 3rem 1.5rem; } }
 @media screen and (min-width: 1024px) { .green-hero { padding: 3rem 10.5rem; } }
