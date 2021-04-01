@@ -1431,7 +1431,7 @@ a.list-item { background-color: whitesmoke; cursor: pointer; }
 .message-body code, .message-body pre { background-color: white; }
 .message-body pre code { background-color: transparent; }
 
-.careers-callout { top: -18vh; background-color: #82a472; margin-bottom: -60px; }
+.careers-callout { top: -130px; background-color: #82a472; margin-bottom: -60px; }
 @media (max-width: 1000px) { .careers-callout { top: 0; margin-bottom: 0; } }
 
 .modal { align-items: center; display: none; flex-direction: column; justify-content: center; overflow: hidden; position: fixed; z-index: 40; }
