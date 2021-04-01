@@ -14,6 +14,22 @@ fields:
 - name: show_careers_callout
   type: boolean
   label: Show Careers Callout
+- name: careers_callout_heading
+  type: text
+  config:
+    required: false
+  label: Careers Callout Heading
+  showOnly:
+    field: show_careers_callout
+    value: true
+- name: careers_button_text
+  type: text
+  config:
+    required: false
+  label: Careers Button Text
+  showOnly:
+    field: show_careers_callout
+    value: true
 - type: text
   name: homepage_hero_heading
   label: homepage_hero_heading
