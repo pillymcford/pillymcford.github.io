@@ -53,18 +53,14 @@ service_content_image: "/assets/images/heros/contact-us.jpg"
 </div>
 {% if page.show_careers_callout == true %}
 <section class="hero is-small is-relative careers-callout">
-  <div class="hero-body">
-    <div class="columns">
-      <div class="column">
-    <h3 class="title has-text-right has-text-left-mobile">
+  <div class="hero-body margin-0-auto">
+    <div class="is-flex">
+    <h3 class="title has-text-centered margin-0-auto pr-30">
       {{ page.careers_callout_heading }}
     </h3>
-    </div>
-    <div class="column">
-      <a class="button" href="/careers/">{{ page.careers_button_text}}</a>
+    <a class="button is-inline" href="/careers/">{{ page.careers_button_text}}</a>
     </div>
     </div>
-  </div>
 </section>
 {% endif %}
 <section class="section is-small">
