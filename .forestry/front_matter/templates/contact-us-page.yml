@@ -25,14 +25,14 @@ fields:
 - type: text
   name: hero_heading
   label: hero_heading
-- type: textarea
-  name: intro_text
-  label: intro_text
 - name: intro_heading
   type: text
   config:
     required: false
   label: Intro Heading
+- type: textarea
+  name: intro_text
+  label: intro_text
 pages:
 - careers/index.html
 - contact-us/index.html
