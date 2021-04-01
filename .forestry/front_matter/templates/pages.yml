@@ -11,6 +11,9 @@ fields:
 - type: text
   name: description
   label: description
+- name: show_careers_callout
+  type: boolean
+  label: Show Careers Callout
 - type: text
   name: homepage_hero_heading
   label: homepage_hero_heading
