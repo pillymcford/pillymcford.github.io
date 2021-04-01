@@ -28,6 +28,11 @@ fields:
 - type: textarea
   name: intro_text
   label: intro_text
+- name: intro_heading
+  type: text
+  config:
+    required: false
+  label: Intro Heading
 pages:
 - careers/index.html
 - contact-us/index.html
