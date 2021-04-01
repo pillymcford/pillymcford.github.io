@@ -7,6 +7,9 @@ homepage_hero_sub_heading: M<sup>c</sup>Lane Construction is a locally owned and
   construction company that has been roofing and siding in Bozeman since 2007. We
   pay close attention to detail and building science, and take pride in our craft
   and our team.
+show_careers_callout: true
+careers_callout_heading: "We are hiring!"
+careers_button_text: "Apply Here"
 why_mclane_content_heading: Why M<sup>c</sup>Lane
 why_mclane_content_subheading: What sets us apart
 why_mclane_content: Nice to meet you, we are happy to be your neighbor!  McLane Construction
@@ -34,7 +37,6 @@ services_content: McLane Construction is primarily a roofing and siding company.
 services_content_image: "/assets/images/img_0739-cropped.jpg"
 services_content_button_text: Learn More
 service_content_image: "/assets/images/heros/contact-us.jpg"
-homepage_hero_background_image: ''
 
 ---
 {% include homepage_image_slider.html %}
@@ -49,6 +51,22 @@ homepage_hero_background_image: ''
   <p class="is-size-5 has-text-centered">{{ page.homepage_hero_sub_heading }}</p>
 </section>
 </div>
+{% if page.show_careers_callout == true %}
+<section class="hero is-small is-relative careers-callout">
+  <div class="hero-body">
+    <div class="columns">
+      <div class="column">
+    <h3 class="title has-text-right has-text-left-mobile">
+      {{ page.careers_callout_heading }}
+    </h3>
+    </div>
+    <div class="column">
+      <a class="button" href="/careers/">{{ page.careers_button_text}}</a>
+    </div>
+    </div>
+  </div>
+</section>
+{% endif %}
 <section class="section is-small">
   <div class="container">
     <div class="columns is-vcentered">

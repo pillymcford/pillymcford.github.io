@@ -131,3 +131,14 @@ $message-colors: $colors !default;
     background-color: $message-body-pre-code-background-color;
   }
 }
+
+
+.careers-callout {
+  top: -18vh;
+  background-color: #82a472;
+  margin-bottom: -60px;
+  @media (max-width: 1000px) {
+    top: 0;
+    margin-bottom: 0;
+  }
+}
