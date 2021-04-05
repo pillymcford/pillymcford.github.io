@@ -29,7 +29,7 @@ Roofing and siding tie into the whole building system, so when we show up for a 
 **Ice dams:** Water that freezes on the eves of your roof, blocking the flow of water off of your roof, and causing it to pool.
 
 * Poor insulation.  Heat from inside your building causes the snow on the roof to melt, but as soon as the water gets past the exterior wall, it freezes again.
-* Incorrectly installed heat tape.  Heat tape does not necessarly prevent ice dams from froming, but is designed to create channels through the snow and ice for water to escape.
+* Incorrectly installed heat tape.  Heat tape does not necessarly prevent ice dams from forming, but is designed to create channels through the snow and ice for water to escape.
 
 **Degraded shingles:** This could look like sluffing granules, and curling or buckling shingles.
 
