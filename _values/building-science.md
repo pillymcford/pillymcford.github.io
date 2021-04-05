@@ -4,6 +4,7 @@ modal_hero_image: "/assets/images/values/building-science.jpg"
 modal_hero_background_image_position_y: "50"
 modal_images:
 - "/assets/images/img_0473.JPG"
+- "/assets/images/img_0531.JPG"
 
 ---
 Building science is the behavior of a building as a system, and impacts a structure’s energy efficiency and durability. Much of this comes down to the building envelope, which begins at the interface between conditioned and unconditioned space. The building envelope is made up of framing, windows, insulation, roofing, and siding. The integrity of your building depends on all of these disciplines working together. When the building envelope is working well, we avoid common problems like condensation, ice dams, and shingle degradation.
