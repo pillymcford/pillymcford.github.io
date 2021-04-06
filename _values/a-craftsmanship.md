@@ -8,7 +8,7 @@ modal_images:
 - "/assets/images/img_0474.JPG"
 - "/assets/images/contact-us/roof-tall.jpg"
 - "/assets/images/img_0731.JPG"
-- "/assets/images/img_0312.JPG"
+- "/assets/images/img_0303.JPG"
 
 ---
 Craftsmanship describes both a skill and a quality of product: it is a skill that has been honed by experience, and it is the quality of a product that has been designed and built with care and attention to detail. At McLane Construction, we are not just roofers and siders, we are craftsmen, and we take pride in creating something of quality in both form and function.
