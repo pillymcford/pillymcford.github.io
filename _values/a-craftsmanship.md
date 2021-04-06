@@ -6,6 +6,9 @@ modal_images:
 - "/assets/images/img_0449.JPG"
 - "/assets/images/services/asphalt3.jpg"
 - "/assets/images/img_0474.JPG"
+- "/assets/images/img_7306.JPG"
+- "/assets/images/img_0715.JPG"
+- "/assets/images/img_0331.JPG"
 - "/assets/images/contact-us/roof-tall.jpg"
 - "/assets/images/img_0303.JPG"
 
