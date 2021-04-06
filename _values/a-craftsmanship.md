@@ -13,7 +13,7 @@ modal_images:
 - "/assets/images/img_0303.JPG"
 
 ---
-Craftsmanship describes both a skill and a quality of product: it is a skill that has been honed by experience, and it is the quality achieved by designing and building with care and attention to detail.  ![](/assets/images/img_0731.JPG)At McLane Construction, we are not just roofers and siders, we are craftsmen, and we take pride in creating something of quality in both form and function.
+Craftsmanship describes both a skill and a quality of product: it is a skill that has been honed by experience, and it is the quality achieved by designing and building with care and attention to detail.  At McLane Construction, we are not just roofers and siders, we are craftsmen, and we take pride in creating something of quality in both form and function.
 
 **Honed**: McLane Construction has worked on over 1200 jobs in and around Bozeman. Across all disciplines, we use manufacturer's specifications and local building codes as minimum standards, and then go above and beyond. Montana is tough on buildings, and we have learned tips and tricks over the years to ensure our work can withstand a harsh and varied climate. We have also fixed hundreds of roofs and siding, and we know what to look out for and what not to do.
 
@@ -26,3 +26,5 @@ Craftsmanship describes both a skill and a quality of product: it is a skill tha
 ![](/assets/images/img_0323.JPG)
 
 ![](/assets/images/img_0719.JPG)
+
+![](/assets/images/img_0731.JPG)
