@@ -7,10 +7,7 @@ modal_images:
 - "/assets/images/services/asphalt3.jpg"
 - "/assets/images/img_0474.JPG"
 - "/assets/images/contact-us/roof-tall.jpg"
-- "/assets/images/img_0719.JPG"
 - "/assets/images/img_0731.JPG"
-- "/assets/images/img_0303.JPG"
-- "/assets/images/img_0323.JPG"
 - "/assets/images/img_0312.JPG"
 
 ---
@@ -21,3 +18,9 @@ Craftsmanship describes both a skill and a quality of product: it is a skill tha
 **Designed**: Every roofing and siding project starts with a plan to anticipate and solve challenges to both form and function. We are prepared for windows, doors, drier vents, and utility meters long before we get to them. Does your chimney have a cricket? Do we need to design custom metal pieces for a particularly vulnerable valley? From accommodating out of square framing to a beautiful screw pattern, our job is to convince your eye that everything is parallel and straight in all the right places.
 
 **Detailed**: High and tight, every time! One missing piece of flashing can rot your roof and cause extensive structural damage. One pinhole in a flat roof can compromise the whole job. And then when it comes to cutting, folding, griding, and riveting metal, our guys are artists. At McLane Construction, we like crisp, clean details, and we don’t like call backs.
+
+![](/assets/images/img_0312.JPG)
+
+![](/assets/images/img_0323.JPG)
+
+![](/assets/images/img_0719.JPG)
