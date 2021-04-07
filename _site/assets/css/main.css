@@ -110,6 +110,8 @@ sup { position: relative; top: 4px; }
 
 .margin-0-auto { margin: 0 auto !important; }
 
+.mb-0 { margin-bottom: 0 !important; }
+
 .pt-0 { padding-top: 0 !important; }
 
 .pr-30 { padding-right: 30px; }
